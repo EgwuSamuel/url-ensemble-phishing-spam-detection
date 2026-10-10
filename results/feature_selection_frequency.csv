@@ -1,0 +1,402 @@
+corpus,experiment,protocol,features,selected_in,splits,share
+ISCX-URL-2016,benign_vs_malicious,domain,dir_count_dot,10,10,1.0
+ISCX-URL-2016,benign_vs_malicious,domain,dir_count_equals,10,10,1.0
+ISCX-URL-2016,benign_vs_malicious,domain,dir_count_hyphen,10,10,1.0
+ISCX-URL-2016,benign_vs_malicious,domain,dir_count_percent,10,10,1.0
+ISCX-URL-2016,benign_vs_malicious,domain,dir_count_plus,10,10,1.0
+ISCX-URL-2016,benign_vs_malicious,domain,dir_length,10,10,1.0
+ISCX-URL-2016,benign_vs_malicious,domain,domain_count_dot,10,10,1.0
+ISCX-URL-2016,benign_vs_malicious,domain,domain_count_hyphen,10,10,1.0
+ISCX-URL-2016,benign_vs_malicious,domain,domain_length,10,10,1.0
+ISCX-URL-2016,benign_vs_malicious,domain,param_count_percent,10,10,1.0
+ISCX-URL-2016,benign_vs_malicious,domain,param_length,10,10,1.0
+ISCX-URL-2016,benign_vs_malicious,domain,url_count_dot,10,10,1.0
+ISCX-URL-2016,benign_vs_malicious,domain,url_count_equals,10,10,1.0
+ISCX-URL-2016,benign_vs_malicious,domain,url_count_hyphen,10,10,1.0
+ISCX-URL-2016,benign_vs_malicious,domain,url_count_percent,10,10,1.0
+ISCX-URL-2016,benign_vs_malicious,domain,url_count_plus,10,10,1.0
+ISCX-URL-2016,benign_vs_malicious,domain,param_count_plus,9,10,0.9
+ISCX-URL-2016,benign_vs_malicious,domain,param_count_equals,8,10,0.8
+ISCX-URL-2016,benign_vs_malicious,domain,param_count_underscore,8,10,0.8
+ISCX-URL-2016,benign_vs_malicious,domain,param_count_dot,7,10,0.7
+ISCX-URL-2016,benign_vs_malicious,domain,url_length,6,10,0.6
+ISCX-URL-2016,benign_vs_malicious,domain,param_count_hyphen,2,10,0.2
+ISCX-URL-2016,benign_vs_malicious,random,dir_count_dot,10,10,1.0
+ISCX-URL-2016,benign_vs_malicious,random,dir_count_equals,10,10,1.0
+ISCX-URL-2016,benign_vs_malicious,random,dir_count_hyphen,10,10,1.0
+ISCX-URL-2016,benign_vs_malicious,random,dir_count_percent,10,10,1.0
+ISCX-URL-2016,benign_vs_malicious,random,dir_count_plus,10,10,1.0
+ISCX-URL-2016,benign_vs_malicious,random,dir_length,10,10,1.0
+ISCX-URL-2016,benign_vs_malicious,random,domain_count_dot,10,10,1.0
+ISCX-URL-2016,benign_vs_malicious,random,domain_count_hyphen,10,10,1.0
+ISCX-URL-2016,benign_vs_malicious,random,domain_length,10,10,1.0
+ISCX-URL-2016,benign_vs_malicious,random,param_count_equals,10,10,1.0
+ISCX-URL-2016,benign_vs_malicious,random,param_count_percent,10,10,1.0
+ISCX-URL-2016,benign_vs_malicious,random,param_count_plus,10,10,1.0
+ISCX-URL-2016,benign_vs_malicious,random,param_count_underscore,10,10,1.0
+ISCX-URL-2016,benign_vs_malicious,random,param_length,10,10,1.0
+ISCX-URL-2016,benign_vs_malicious,random,url_count_dot,10,10,1.0
+ISCX-URL-2016,benign_vs_malicious,random,url_count_equals,10,10,1.0
+ISCX-URL-2016,benign_vs_malicious,random,url_count_hyphen,10,10,1.0
+ISCX-URL-2016,benign_vs_malicious,random,url_count_percent,10,10,1.0
+ISCX-URL-2016,benign_vs_malicious,random,url_count_plus,10,10,1.0
+ISCX-URL-2016,benign_vs_malicious,random,url_length,10,10,1.0
+ISCX-URL-2016,benign_vs_phishing,domain,dir_count_dot,10,10,1.0
+ISCX-URL-2016,benign_vs_phishing,domain,dir_count_equals,10,10,1.0
+ISCX-URL-2016,benign_vs_phishing,domain,dir_count_hyphen,10,10,1.0
+ISCX-URL-2016,benign_vs_phishing,domain,dir_count_percent,10,10,1.0
+ISCX-URL-2016,benign_vs_phishing,domain,dir_length,10,10,1.0
+ISCX-URL-2016,benign_vs_phishing,domain,domain_count_dot,10,10,1.0
+ISCX-URL-2016,benign_vs_phishing,domain,domain_count_hyphen,10,10,1.0
+ISCX-URL-2016,benign_vs_phishing,domain,domain_length,10,10,1.0
+ISCX-URL-2016,benign_vs_phishing,domain,param_count_percent,10,10,1.0
+ISCX-URL-2016,benign_vs_phishing,domain,url_count_dot,10,10,1.0
+ISCX-URL-2016,benign_vs_phishing,domain,url_count_hyphen,10,10,1.0
+ISCX-URL-2016,benign_vs_phishing,domain,url_count_percent,10,10,1.0
+ISCX-URL-2016,benign_vs_phishing,domain,url_count_plus,10,10,1.0
+ISCX-URL-2016,benign_vs_phishing,domain,url_count_underscore,10,10,1.0
+ISCX-URL-2016,benign_vs_phishing,domain,url_length,10,10,1.0
+ISCX-URL-2016,benign_vs_phishing,domain,param_count_plus,9,10,0.9
+ISCX-URL-2016,benign_vs_phishing,domain,param_length,9,10,0.9
+ISCX-URL-2016,benign_vs_phishing,domain,dir_count_plus,8,10,0.8
+ISCX-URL-2016,benign_vs_phishing,domain,param_count_underscore,7,10,0.7
+ISCX-URL-2016,benign_vs_phishing,domain,param_count_equals,6,10,0.6
+ISCX-URL-2016,benign_vs_phishing,domain,redirect,5,10,0.5
+ISCX-URL-2016,benign_vs_phishing,domain,dir_count_underscore,3,10,0.3
+ISCX-URL-2016,benign_vs_phishing,domain,have_ip,1,10,0.1
+ISCX-URL-2016,benign_vs_phishing,domain,param_count_dot,1,10,0.1
+ISCX-URL-2016,benign_vs_phishing,domain,url_depth,1,10,0.1
+ISCX-URL-2016,benign_vs_phishing,random,dir_count_dot,10,10,1.0
+ISCX-URL-2016,benign_vs_phishing,random,dir_count_equals,10,10,1.0
+ISCX-URL-2016,benign_vs_phishing,random,dir_count_hyphen,10,10,1.0
+ISCX-URL-2016,benign_vs_phishing,random,dir_count_percent,10,10,1.0
+ISCX-URL-2016,benign_vs_phishing,random,dir_count_plus,10,10,1.0
+ISCX-URL-2016,benign_vs_phishing,random,dir_length,10,10,1.0
+ISCX-URL-2016,benign_vs_phishing,random,domain_count_dot,10,10,1.0
+ISCX-URL-2016,benign_vs_phishing,random,domain_count_hyphen,10,10,1.0
+ISCX-URL-2016,benign_vs_phishing,random,domain_length,10,10,1.0
+ISCX-URL-2016,benign_vs_phishing,random,param_count_equals,10,10,1.0
+ISCX-URL-2016,benign_vs_phishing,random,param_count_percent,10,10,1.0
+ISCX-URL-2016,benign_vs_phishing,random,param_count_plus,10,10,1.0
+ISCX-URL-2016,benign_vs_phishing,random,param_count_underscore,10,10,1.0
+ISCX-URL-2016,benign_vs_phishing,random,param_length,10,10,1.0
+ISCX-URL-2016,benign_vs_phishing,random,url_count_dot,10,10,1.0
+ISCX-URL-2016,benign_vs_phishing,random,url_count_hyphen,10,10,1.0
+ISCX-URL-2016,benign_vs_phishing,random,url_count_percent,10,10,1.0
+ISCX-URL-2016,benign_vs_phishing,random,url_count_plus,10,10,1.0
+ISCX-URL-2016,benign_vs_phishing,random,url_count_underscore,10,10,1.0
+ISCX-URL-2016,benign_vs_phishing,random,url_length,10,10,1.0
+ISCX-URL-2016,headline,domain,dir_count_hyphen,30,30,1.0
+ISCX-URL-2016,headline,domain,dir_count_percent,30,30,1.0
+ISCX-URL-2016,headline,domain,dir_length,30,30,1.0
+ISCX-URL-2016,headline,domain,domain_count_dot,30,30,1.0
+ISCX-URL-2016,headline,domain,domain_count_hyphen,30,30,1.0
+ISCX-URL-2016,headline,domain,domain_length,30,30,1.0
+ISCX-URL-2016,headline,domain,param_count_equals,30,30,1.0
+ISCX-URL-2016,headline,domain,param_count_percent,30,30,1.0
+ISCX-URL-2016,headline,domain,param_count_underscore,30,30,1.0
+ISCX-URL-2016,headline,domain,param_length,30,30,1.0
+ISCX-URL-2016,headline,domain,url_count_dot,30,30,1.0
+ISCX-URL-2016,headline,domain,url_count_equals,30,30,1.0
+ISCX-URL-2016,headline,domain,url_count_hyphen,30,30,1.0
+ISCX-URL-2016,headline,domain,url_count_percent,30,30,1.0
+ISCX-URL-2016,headline,domain,url_count_plus,30,30,1.0
+ISCX-URL-2016,headline,domain,url_length,30,30,1.0
+ISCX-URL-2016,headline,domain,dir_count_plus,29,30,0.9666666666666667
+ISCX-URL-2016,headline,domain,dir_count_dot,28,30,0.9333333333333333
+ISCX-URL-2016,headline,domain,dir_count_equals,28,30,0.9333333333333333
+ISCX-URL-2016,headline,domain,url_count_underscore,25,30,0.8333333333333334
+ISCX-URL-2016,headline,domain,param_count_dot,6,30,0.2
+ISCX-URL-2016,headline,domain,param_count_plus,4,30,0.13333333333333333
+ISCX-URL-2016,headline,host,dir_count_dot,30,30,1.0
+ISCX-URL-2016,headline,host,dir_count_hyphen,30,30,1.0
+ISCX-URL-2016,headline,host,dir_count_percent,30,30,1.0
+ISCX-URL-2016,headline,host,dir_length,30,30,1.0
+ISCX-URL-2016,headline,host,domain_count_dot,30,30,1.0
+ISCX-URL-2016,headline,host,domain_count_hyphen,30,30,1.0
+ISCX-URL-2016,headline,host,domain_length,30,30,1.0
+ISCX-URL-2016,headline,host,param_count_equals,30,30,1.0
+ISCX-URL-2016,headline,host,param_count_underscore,30,30,1.0
+ISCX-URL-2016,headline,host,param_length,30,30,1.0
+ISCX-URL-2016,headline,host,url_count_dot,30,30,1.0
+ISCX-URL-2016,headline,host,url_count_equals,30,30,1.0
+ISCX-URL-2016,headline,host,url_count_hyphen,30,30,1.0
+ISCX-URL-2016,headline,host,url_count_percent,30,30,1.0
+ISCX-URL-2016,headline,host,url_length,30,30,1.0
+ISCX-URL-2016,headline,host,param_count_percent,29,30,0.9666666666666667
+ISCX-URL-2016,headline,host,dir_count_equals,28,30,0.9333333333333333
+ISCX-URL-2016,headline,host,url_count_plus,28,30,0.9333333333333333
+ISCX-URL-2016,headline,host,url_count_underscore,28,30,0.9333333333333333
+ISCX-URL-2016,headline,host,dir_count_plus,25,30,0.8333333333333334
+ISCX-URL-2016,headline,host,param_count_dot,6,30,0.2
+ISCX-URL-2016,headline,host,param_count_plus,3,30,0.1
+ISCX-URL-2016,headline,host,param_count_hyphen,2,30,0.06666666666666667
+ISCX-URL-2016,headline,host,dir_count_underscore,1,30,0.03333333333333333
+ISCX-URL-2016,headline,random,dir_count_dot,30,30,1.0
+ISCX-URL-2016,headline,random,dir_count_equals,30,30,1.0
+ISCX-URL-2016,headline,random,dir_count_hyphen,30,30,1.0
+ISCX-URL-2016,headline,random,dir_count_percent,30,30,1.0
+ISCX-URL-2016,headline,random,dir_count_plus,30,30,1.0
+ISCX-URL-2016,headline,random,dir_length,30,30,1.0
+ISCX-URL-2016,headline,random,domain_count_dot,30,30,1.0
+ISCX-URL-2016,headline,random,domain_count_hyphen,30,30,1.0
+ISCX-URL-2016,headline,random,domain_length,30,30,1.0
+ISCX-URL-2016,headline,random,param_count_equals,30,30,1.0
+ISCX-URL-2016,headline,random,param_count_percent,30,30,1.0
+ISCX-URL-2016,headline,random,param_count_underscore,30,30,1.0
+ISCX-URL-2016,headline,random,param_length,30,30,1.0
+ISCX-URL-2016,headline,random,url_count_dot,30,30,1.0
+ISCX-URL-2016,headline,random,url_count_equals,30,30,1.0
+ISCX-URL-2016,headline,random,url_count_hyphen,30,30,1.0
+ISCX-URL-2016,headline,random,url_count_percent,30,30,1.0
+ISCX-URL-2016,headline,random,url_count_plus,30,30,1.0
+ISCX-URL-2016,headline,random,url_count_underscore,30,30,1.0
+ISCX-URL-2016,headline,random,url_length,30,30,1.0
+ISCX-URL-2016,tuned,domain,dir_count_dot,10,10,1.0
+ISCX-URL-2016,tuned,domain,dir_count_hyphen,10,10,1.0
+ISCX-URL-2016,tuned,domain,dir_count_percent,10,10,1.0
+ISCX-URL-2016,tuned,domain,dir_count_plus,10,10,1.0
+ISCX-URL-2016,tuned,domain,dir_length,10,10,1.0
+ISCX-URL-2016,tuned,domain,domain_count_dot,10,10,1.0
+ISCX-URL-2016,tuned,domain,domain_count_hyphen,10,10,1.0
+ISCX-URL-2016,tuned,domain,domain_length,10,10,1.0
+ISCX-URL-2016,tuned,domain,param_count_equals,10,10,1.0
+ISCX-URL-2016,tuned,domain,param_count_percent,10,10,1.0
+ISCX-URL-2016,tuned,domain,param_count_underscore,10,10,1.0
+ISCX-URL-2016,tuned,domain,param_length,10,10,1.0
+ISCX-URL-2016,tuned,domain,url_count_dot,10,10,1.0
+ISCX-URL-2016,tuned,domain,url_count_equals,10,10,1.0
+ISCX-URL-2016,tuned,domain,url_count_hyphen,10,10,1.0
+ISCX-URL-2016,tuned,domain,url_count_percent,10,10,1.0
+ISCX-URL-2016,tuned,domain,url_count_plus,10,10,1.0
+ISCX-URL-2016,tuned,domain,url_length,10,10,1.0
+ISCX-URL-2016,tuned,domain,dir_count_equals,9,10,0.9
+ISCX-URL-2016,tuned,domain,url_count_underscore,9,10,0.9
+ISCX-URL-2016,tuned,domain,param_count_dot,2,10,0.2
+ISCX-URL-2016,tuned,random,dir_count_dot,10,10,1.0
+ISCX-URL-2016,tuned,random,dir_count_equals,10,10,1.0
+ISCX-URL-2016,tuned,random,dir_count_hyphen,10,10,1.0
+ISCX-URL-2016,tuned,random,dir_count_percent,10,10,1.0
+ISCX-URL-2016,tuned,random,dir_count_plus,10,10,1.0
+ISCX-URL-2016,tuned,random,dir_length,10,10,1.0
+ISCX-URL-2016,tuned,random,domain_count_dot,10,10,1.0
+ISCX-URL-2016,tuned,random,domain_count_hyphen,10,10,1.0
+ISCX-URL-2016,tuned,random,domain_length,10,10,1.0
+ISCX-URL-2016,tuned,random,param_count_equals,10,10,1.0
+ISCX-URL-2016,tuned,random,param_count_percent,10,10,1.0
+ISCX-URL-2016,tuned,random,param_count_underscore,10,10,1.0
+ISCX-URL-2016,tuned,random,param_length,10,10,1.0
+ISCX-URL-2016,tuned,random,url_count_dot,10,10,1.0
+ISCX-URL-2016,tuned,random,url_count_equals,10,10,1.0
+ISCX-URL-2016,tuned,random,url_count_hyphen,10,10,1.0
+ISCX-URL-2016,tuned,random,url_count_percent,10,10,1.0
+ISCX-URL-2016,tuned,random,url_count_plus,10,10,1.0
+ISCX-URL-2016,tuned,random,url_count_underscore,10,10,1.0
+ISCX-URL-2016,tuned,random,url_length,10,10,1.0
+ISCX-URL-2016,unescaped,domain,dir_count_dot,10,10,1.0
+ISCX-URL-2016,unescaped,domain,dir_count_hyphen,10,10,1.0
+ISCX-URL-2016,unescaped,domain,dir_count_percent,10,10,1.0
+ISCX-URL-2016,unescaped,domain,dir_count_plus,10,10,1.0
+ISCX-URL-2016,unescaped,domain,dir_length,10,10,1.0
+ISCX-URL-2016,unescaped,domain,domain_count_dot,10,10,1.0
+ISCX-URL-2016,unescaped,domain,domain_count_hyphen,10,10,1.0
+ISCX-URL-2016,unescaped,domain,domain_length,10,10,1.0
+ISCX-URL-2016,unescaped,domain,param_count_equals,10,10,1.0
+ISCX-URL-2016,unescaped,domain,param_count_percent,10,10,1.0
+ISCX-URL-2016,unescaped,domain,param_count_underscore,10,10,1.0
+ISCX-URL-2016,unescaped,domain,param_length,10,10,1.0
+ISCX-URL-2016,unescaped,domain,url_count_dot,10,10,1.0
+ISCX-URL-2016,unescaped,domain,url_count_equals,10,10,1.0
+ISCX-URL-2016,unescaped,domain,url_count_hyphen,10,10,1.0
+ISCX-URL-2016,unescaped,domain,url_count_percent,10,10,1.0
+ISCX-URL-2016,unescaped,domain,url_count_plus,10,10,1.0
+ISCX-URL-2016,unescaped,domain,url_length,10,10,1.0
+ISCX-URL-2016,unescaped,domain,dir_count_equals,9,10,0.9
+ISCX-URL-2016,unescaped,domain,url_count_underscore,9,10,0.9
+ISCX-URL-2016,unescaped,domain,param_count_dot,2,10,0.2
+ISCX-URL-2016,unescaped,random,dir_count_dot,10,10,1.0
+ISCX-URL-2016,unescaped,random,dir_count_equals,10,10,1.0
+ISCX-URL-2016,unescaped,random,dir_count_hyphen,10,10,1.0
+ISCX-URL-2016,unescaped,random,dir_count_percent,10,10,1.0
+ISCX-URL-2016,unescaped,random,dir_count_plus,10,10,1.0
+ISCX-URL-2016,unescaped,random,dir_length,10,10,1.0
+ISCX-URL-2016,unescaped,random,domain_count_dot,10,10,1.0
+ISCX-URL-2016,unescaped,random,domain_count_hyphen,10,10,1.0
+ISCX-URL-2016,unescaped,random,domain_length,10,10,1.0
+ISCX-URL-2016,unescaped,random,param_count_equals,10,10,1.0
+ISCX-URL-2016,unescaped,random,param_count_percent,10,10,1.0
+ISCX-URL-2016,unescaped,random,param_count_underscore,10,10,1.0
+ISCX-URL-2016,unescaped,random,param_length,10,10,1.0
+ISCX-URL-2016,unescaped,random,url_count_dot,10,10,1.0
+ISCX-URL-2016,unescaped,random,url_count_equals,10,10,1.0
+ISCX-URL-2016,unescaped,random,url_count_hyphen,10,10,1.0
+ISCX-URL-2016,unescaped,random,url_count_percent,10,10,1.0
+ISCX-URL-2016,unescaped,random,url_count_plus,10,10,1.0
+ISCX-URL-2016,unescaped,random,url_count_underscore,10,10,1.0
+ISCX-URL-2016,unescaped,random,url_length,10,10,1.0
+ISCX-URL-2016,with_rank,domain,dir_count_hyphen,10,10,1.0
+ISCX-URL-2016,with_rank,domain,dir_count_percent,10,10,1.0
+ISCX-URL-2016,with_rank,domain,dir_length,10,10,1.0
+ISCX-URL-2016,with_rank,domain,domain_count_dot,10,10,1.0
+ISCX-URL-2016,with_rank,domain,domain_count_hyphen,10,10,1.0
+ISCX-URL-2016,with_rank,domain,domain_length,10,10,1.0
+ISCX-URL-2016,with_rank,domain,param_count_equals,10,10,1.0
+ISCX-URL-2016,with_rank,domain,param_count_percent,10,10,1.0
+ISCX-URL-2016,with_rank,domain,param_length,10,10,1.0
+ISCX-URL-2016,with_rank,domain,url_count_dot,10,10,1.0
+ISCX-URL-2016,with_rank,domain,url_count_equals,10,10,1.0
+ISCX-URL-2016,with_rank,domain,url_count_hyphen,10,10,1.0
+ISCX-URL-2016,with_rank,domain,url_count_percent,10,10,1.0
+ISCX-URL-2016,with_rank,domain,url_count_plus,10,10,1.0
+ISCX-URL-2016,with_rank,domain,url_length,10,10,1.0
+ISCX-URL-2016,with_rank,domain,web_traffic_rank,10,10,1.0
+ISCX-URL-2016,with_rank,domain,dir_count_equals,9,10,0.9
+ISCX-URL-2016,with_rank,domain,param_count_underscore,9,10,0.9
+ISCX-URL-2016,with_rank,domain,url_count_underscore,9,10,0.9
+ISCX-URL-2016,with_rank,domain,dir_count_dot,6,10,0.6
+ISCX-URL-2016,with_rank,domain,dir_count_plus,6,10,0.6
+ISCX-URL-2016,with_rank,domain,param_count_dot,1,10,0.1
+ISCX-URL-2016,with_rank,random,dir_count_dot,10,10,1.0
+ISCX-URL-2016,with_rank,random,dir_count_equals,10,10,1.0
+ISCX-URL-2016,with_rank,random,dir_count_hyphen,10,10,1.0
+ISCX-URL-2016,with_rank,random,dir_count_percent,10,10,1.0
+ISCX-URL-2016,with_rank,random,dir_length,10,10,1.0
+ISCX-URL-2016,with_rank,random,domain_count_dot,10,10,1.0
+ISCX-URL-2016,with_rank,random,domain_count_hyphen,10,10,1.0
+ISCX-URL-2016,with_rank,random,domain_length,10,10,1.0
+ISCX-URL-2016,with_rank,random,param_count_equals,10,10,1.0
+ISCX-URL-2016,with_rank,random,param_count_percent,10,10,1.0
+ISCX-URL-2016,with_rank,random,param_count_underscore,10,10,1.0
+ISCX-URL-2016,with_rank,random,param_length,10,10,1.0
+ISCX-URL-2016,with_rank,random,url_count_dot,10,10,1.0
+ISCX-URL-2016,with_rank,random,url_count_equals,10,10,1.0
+ISCX-URL-2016,with_rank,random,url_count_hyphen,10,10,1.0
+ISCX-URL-2016,with_rank,random,url_count_percent,10,10,1.0
+ISCX-URL-2016,with_rank,random,url_count_plus,10,10,1.0
+ISCX-URL-2016,with_rank,random,url_count_underscore,10,10,1.0
+ISCX-URL-2016,with_rank,random,url_length,10,10,1.0
+ISCX-URL-2016,with_rank,random,web_traffic_rank,10,10,1.0
+ISCX-URL-2016 -> PhiUSIIL,headline,cross-corpus,dir_count_dot,1,1,1.0
+ISCX-URL-2016 -> PhiUSIIL,headline,cross-corpus,dir_count_equals,1,1,1.0
+ISCX-URL-2016 -> PhiUSIIL,headline,cross-corpus,dir_count_hyphen,1,1,1.0
+ISCX-URL-2016 -> PhiUSIIL,headline,cross-corpus,dir_count_percent,1,1,1.0
+ISCX-URL-2016 -> PhiUSIIL,headline,cross-corpus,dir_count_plus,1,1,1.0
+ISCX-URL-2016 -> PhiUSIIL,headline,cross-corpus,dir_length,1,1,1.0
+ISCX-URL-2016 -> PhiUSIIL,headline,cross-corpus,domain_count_dot,1,1,1.0
+ISCX-URL-2016 -> PhiUSIIL,headline,cross-corpus,domain_count_hyphen,1,1,1.0
+ISCX-URL-2016 -> PhiUSIIL,headline,cross-corpus,domain_length,1,1,1.0
+ISCX-URL-2016 -> PhiUSIIL,headline,cross-corpus,param_count_equals,1,1,1.0
+ISCX-URL-2016 -> PhiUSIIL,headline,cross-corpus,param_count_percent,1,1,1.0
+ISCX-URL-2016 -> PhiUSIIL,headline,cross-corpus,param_count_plus,1,1,1.0
+ISCX-URL-2016 -> PhiUSIIL,headline,cross-corpus,param_count_underscore,1,1,1.0
+ISCX-URL-2016 -> PhiUSIIL,headline,cross-corpus,param_length,1,1,1.0
+ISCX-URL-2016 -> PhiUSIIL,headline,cross-corpus,url_count_dot,1,1,1.0
+ISCX-URL-2016 -> PhiUSIIL,headline,cross-corpus,url_count_hyphen,1,1,1.0
+ISCX-URL-2016 -> PhiUSIIL,headline,cross-corpus,url_count_percent,1,1,1.0
+ISCX-URL-2016 -> PhiUSIIL,headline,cross-corpus,url_count_plus,1,1,1.0
+ISCX-URL-2016 -> PhiUSIIL,headline,cross-corpus,url_count_underscore,1,1,1.0
+ISCX-URL-2016 -> PhiUSIIL,headline,cross-corpus,url_length,1,1,1.0
+PhiUSIIL,headline,domain,dir_count_dot,20,20,1.0
+PhiUSIIL,headline,domain,dir_count_hyphen,20,20,1.0
+PhiUSIIL,headline,domain,dir_count_underscore,20,20,1.0
+PhiUSIIL,headline,domain,dir_length,20,20,1.0
+PhiUSIIL,headline,domain,domain_count_hyphen,20,20,1.0
+PhiUSIIL,headline,domain,domain_length,20,20,1.0
+PhiUSIIL,headline,domain,has_https,20,20,1.0
+PhiUSIIL,headline,domain,param_count_dot,20,20,1.0
+PhiUSIIL,headline,domain,param_count_equals,20,20,1.0
+PhiUSIIL,headline,domain,param_count_hyphen,20,20,1.0
+PhiUSIIL,headline,domain,param_count_percent,20,20,1.0
+PhiUSIIL,headline,domain,param_count_underscore,20,20,1.0
+PhiUSIIL,headline,domain,param_length,20,20,1.0
+PhiUSIIL,headline,domain,url_count_equals,20,20,1.0
+PhiUSIIL,headline,domain,url_count_hyphen,20,20,1.0
+PhiUSIIL,headline,domain,url_count_percent,20,20,1.0
+PhiUSIIL,headline,domain,url_count_underscore,20,20,1.0
+PhiUSIIL,headline,domain,url_depth,20,20,1.0
+PhiUSIIL,headline,domain,url_length,20,20,1.0
+PhiUSIIL,headline,domain,url_count_at,12,20,0.6
+PhiUSIIL,headline,domain,dir_count_percent,8,20,0.4
+PhiUSIIL,headline,random,dir_count_dot,20,20,1.0
+PhiUSIIL,headline,random,dir_count_hyphen,20,20,1.0
+PhiUSIIL,headline,random,dir_count_underscore,20,20,1.0
+PhiUSIIL,headline,random,dir_length,20,20,1.0
+PhiUSIIL,headline,random,domain_count_hyphen,20,20,1.0
+PhiUSIIL,headline,random,domain_length,20,20,1.0
+PhiUSIIL,headline,random,has_https,20,20,1.0
+PhiUSIIL,headline,random,param_count_dot,20,20,1.0
+PhiUSIIL,headline,random,param_count_equals,20,20,1.0
+PhiUSIIL,headline,random,param_count_hyphen,20,20,1.0
+PhiUSIIL,headline,random,param_count_percent,20,20,1.0
+PhiUSIIL,headline,random,param_count_underscore,20,20,1.0
+PhiUSIIL,headline,random,param_length,20,20,1.0
+PhiUSIIL,headline,random,url_count_equals,20,20,1.0
+PhiUSIIL,headline,random,url_count_hyphen,20,20,1.0
+PhiUSIIL,headline,random,url_count_percent,20,20,1.0
+PhiUSIIL,headline,random,url_count_underscore,20,20,1.0
+PhiUSIIL,headline,random,url_depth,20,20,1.0
+PhiUSIIL,headline,random,url_length,20,20,1.0
+PhiUSIIL,headline,random,url_count_at,11,20,0.55
+PhiUSIIL,headline,random,dir_count_percent,9,20,0.45
+PhiUSIIL,tuned,domain,dir_count_dot,5,5,1.0
+PhiUSIIL,tuned,domain,dir_count_hyphen,5,5,1.0
+PhiUSIIL,tuned,domain,dir_count_underscore,5,5,1.0
+PhiUSIIL,tuned,domain,dir_length,5,5,1.0
+PhiUSIIL,tuned,domain,domain_count_hyphen,5,5,1.0
+PhiUSIIL,tuned,domain,domain_length,5,5,1.0
+PhiUSIIL,tuned,domain,has_https,5,5,1.0
+PhiUSIIL,tuned,domain,param_count_dot,5,5,1.0
+PhiUSIIL,tuned,domain,param_count_equals,5,5,1.0
+PhiUSIIL,tuned,domain,param_count_hyphen,5,5,1.0
+PhiUSIIL,tuned,domain,param_count_percent,5,5,1.0
+PhiUSIIL,tuned,domain,param_count_underscore,5,5,1.0
+PhiUSIIL,tuned,domain,param_length,5,5,1.0
+PhiUSIIL,tuned,domain,url_count_equals,5,5,1.0
+PhiUSIIL,tuned,domain,url_count_hyphen,5,5,1.0
+PhiUSIIL,tuned,domain,url_count_percent,5,5,1.0
+PhiUSIIL,tuned,domain,url_count_underscore,5,5,1.0
+PhiUSIIL,tuned,domain,url_depth,5,5,1.0
+PhiUSIIL,tuned,domain,url_length,5,5,1.0
+PhiUSIIL,tuned,domain,url_count_at,3,5,0.6
+PhiUSIIL,tuned,domain,dir_count_percent,2,5,0.4
+PhiUSIIL,tuned,random,dir_count_dot,5,5,1.0
+PhiUSIIL,tuned,random,dir_count_hyphen,5,5,1.0
+PhiUSIIL,tuned,random,dir_count_underscore,5,5,1.0
+PhiUSIIL,tuned,random,dir_length,5,5,1.0
+PhiUSIIL,tuned,random,domain_count_hyphen,5,5,1.0
+PhiUSIIL,tuned,random,domain_length,5,5,1.0
+PhiUSIIL,tuned,random,has_https,5,5,1.0
+PhiUSIIL,tuned,random,param_count_dot,5,5,1.0
+PhiUSIIL,tuned,random,param_count_equals,5,5,1.0
+PhiUSIIL,tuned,random,param_count_hyphen,5,5,1.0
+PhiUSIIL,tuned,random,param_count_percent,5,5,1.0
+PhiUSIIL,tuned,random,param_count_underscore,5,5,1.0
+PhiUSIIL,tuned,random,param_length,5,5,1.0
+PhiUSIIL,tuned,random,url_count_equals,5,5,1.0
+PhiUSIIL,tuned,random,url_count_hyphen,5,5,1.0
+PhiUSIIL,tuned,random,url_count_percent,5,5,1.0
+PhiUSIIL,tuned,random,url_count_underscore,5,5,1.0
+PhiUSIIL,tuned,random,url_depth,5,5,1.0
+PhiUSIIL,tuned,random,url_length,5,5,1.0
+PhiUSIIL,tuned,random,url_count_at,4,5,0.8
+PhiUSIIL,tuned,random,dir_count_percent,1,5,0.2
+PhiUSIIL -> ISCX-URL-2016,headline,cross-corpus,dir_count_dot,1,1,1.0
+PhiUSIIL -> ISCX-URL-2016,headline,cross-corpus,dir_count_hyphen,1,1,1.0
+PhiUSIIL -> ISCX-URL-2016,headline,cross-corpus,dir_count_underscore,1,1,1.0
+PhiUSIIL -> ISCX-URL-2016,headline,cross-corpus,dir_length,1,1,1.0
+PhiUSIIL -> ISCX-URL-2016,headline,cross-corpus,domain_count_hyphen,1,1,1.0
+PhiUSIIL -> ISCX-URL-2016,headline,cross-corpus,domain_length,1,1,1.0
+PhiUSIIL -> ISCX-URL-2016,headline,cross-corpus,has_https,1,1,1.0
+PhiUSIIL -> ISCX-URL-2016,headline,cross-corpus,param_count_dot,1,1,1.0
+PhiUSIIL -> ISCX-URL-2016,headline,cross-corpus,param_count_equals,1,1,1.0
+PhiUSIIL -> ISCX-URL-2016,headline,cross-corpus,param_count_hyphen,1,1,1.0
+PhiUSIIL -> ISCX-URL-2016,headline,cross-corpus,param_count_percent,1,1,1.0
+PhiUSIIL -> ISCX-URL-2016,headline,cross-corpus,param_count_underscore,1,1,1.0
+PhiUSIIL -> ISCX-URL-2016,headline,cross-corpus,param_length,1,1,1.0
+PhiUSIIL -> ISCX-URL-2016,headline,cross-corpus,url_count_at,1,1,1.0
+PhiUSIIL -> ISCX-URL-2016,headline,cross-corpus,url_count_equals,1,1,1.0
+PhiUSIIL -> ISCX-URL-2016,headline,cross-corpus,url_count_hyphen,1,1,1.0
+PhiUSIIL -> ISCX-URL-2016,headline,cross-corpus,url_count_percent,1,1,1.0
+PhiUSIIL -> ISCX-URL-2016,headline,cross-corpus,url_count_underscore,1,1,1.0
+PhiUSIIL -> ISCX-URL-2016,headline,cross-corpus,url_depth,1,1,1.0
+PhiUSIIL -> ISCX-URL-2016,headline,cross-corpus,url_length,1,1,1.0

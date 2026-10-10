@@ -1,32 +1,50 @@
-# Soft-voting ensemble for spam and phishing URL detection
+# Website overlap and collection artefacts in URL-based phishing and spam detection
 
-Code and result files for the paper *Soft-Voting Ensemble Learning for Spam and Phishing URL
-Detection: A Host-Disjoint Evaluation*.
+Code and result files for the paper *Website Overlap and Collection Artefacts in URL-Based
+Phishing and Spam Detection: A Two-Corpus Evaluation Study*.
 
-The pipeline extracts 50 features from each URL (whole URL, domain, directory and query
-parameters), keeps the 20 most discriminative by Chi-squared selection, and trains Logistic
-Regression, Decision Tree, Random Forest, CatBoost and a soft-voting ensemble of the four.
-It evaluates them two ways:
+One fixed pipeline (49 lexical URL features, Chi-squared selection of 20, Logistic Regression,
+Decision Tree, Random Forest, CatBoost and their soft-voting ensemble) is evaluated on two
+public corpora along an **evaluation ladder**:
 
-- **Random split**: a stratified 80/20 split of URLs.
-- **Host-disjoint splits**: five 80/20 splits in which no website in the test set appears in
-  training.
+1. **Random split**: stratified 80/20 split of URLs.
+2. **Host-disjoint split**: no host name on both sides.
+3. **Domain-disjoint split**: no registered domain (public suffix plus one label) on both sides.
+4. **Cross-corpus transfer**: train on one corpus, test on the other.
 
-## Results
+Three extra models put the results in context: a character n-gram model, a small character
+CNN, and an **artefact-only baseline** that sees just the public suffix, scheme, `www` prefix
+and HTML-escaping of a URL.
 
-Benign, phishing and spam URLs of ISCX-URL-2016 (57,343 URLs; 45,874 train / 11,469 test).
+## Main results
 
-| Model | Random-split accuracy | Random-split ROC-AUC | Host-disjoint accuracy (mean ± SD) |
-|---|---|---|---|
-| Logistic Regression | 0.9350 | 0.9828 | 0.8351 ± 0.0321 |
-| Decision Tree | 0.9932 | 0.9928 | 0.8148 ± 0.0584 |
-| Random Forest | 0.9946 | 0.9997 | 0.8368 ± 0.0426 |
-| CatBoost | 0.9936 | 0.9997 | 0.8693 ± 0.0557 |
-| Soft-voting ensemble | 0.9944 | 0.9996 | 0.8625 ± 0.0175 |
+Accuracy in percent, mean over repeated splits (30 per protocol on ISCX-URL-2016, 20 on
+PhiUSIIL) with 95% corrected resampled intervals.
 
-Under the random split, 93.1% of test URLs come from a host that also occurs in training,
-which is why the two columns differ so much. Full tables, including the runs without the
-web-traffic-rank feature, are in [`results/`](results/).
+| Model | ISCX random | ISCX domain-disjoint | PhiUSIIL random | PhiUSIIL domain-disjoint |
+|---|---|---|---|---|
+| Logistic Regression | 90.7 [90.5, 90.9] | 79.8 [72.5, 87.1] | 99.2 [99.1, 99.3] | 99.2 [98.9, 99.5] |
+| Decision Tree | 98.6 [98.5, 98.7] | 81.1 [74.1, 88.1] | 99.3 [99.2, 99.3] | 99.3 [99.0, 99.6] |
+| Random Forest | 99.0 [98.9, 99.1] | 84.3 [75.4, 93.2] | 99.3 [99.2, 99.3] | 99.3 [99.0, 99.6] |
+| CatBoost | 98.8 [98.7, 98.9] | 85.0 [77.1, 93.0] | 99.3 [99.2, 99.3] | 99.3 [99.0, 99.6] |
+| Soft-voting ensemble | 98.9 [98.8, 99.0] | 84.7 [77.0, 92.5] | 99.3 [99.2, 99.3] | 99.3 [99.0, 99.6] |
+| Char n-gram LR | 99.8 [99.8, 99.9] | 96.8 [93.6, 100.0] | 99.7 [99.7, 99.8] | 99.8 [99.7, 99.8] |
+| Char-CNN (5 and 3 splits) | 99.1 [98.8, 99.3] | 98.1 [97.2, 99.0] | 99.8 [99.7, 99.9] | 99.8 [99.7, 99.8] |
+| Artefact-only RF | 91.6 [91.4, 91.8] | 84.7 [79.7, 89.6] | 99.1 [99.1, 99.2] | 99.2 [99.1, 99.3] |
+
+Cross-corpus transfer (benign vs phishing): trained on ISCX-URL-2016 and tested on PhiUSIIL
+the ensemble scores 42.1%; trained on PhiUSIIL and tested on ISCX-URL-2016 it scores 22.0%.
+In both directions practically every benign URL of the other corpus is labelled phishing.
+
+What this shows:
+
+- On ISCX-URL-2016, removing registered-domain overlap costs the feature-based ensemble about
+  14 points.
+- On PhiUSIIL there is no such gap, but four collection attributes alone give 99.1%.
+- No model transfers between the corpora, including the character models that look robust
+  within a corpus.
+
+All tables are in [`results/`](results/) and the figures in [`results/figures/`](results/figures/).
 
 ## Reproducing
 
@@ -36,39 +54,60 @@ Tested with Python 3.14 and the package versions in `requirements.txt`.
 pip install -r requirements.txt
 ```
 
-1. **Data.** Download ISCX-URL-2016 from the Canadian Institute for Cybersecurity
-   (<https://www.unb.ca/cic/datasets/url-2016.html>) and copy these three files from
-   `FinalDataset/URL/` into `data/`:
-   `Benign_list_big_final.csv`, `phishing_dataset.csv`, `spam_dataset.csv`.
-2. **Rank list.** Download the Tranco list with ID `8PX5V`
-   (<https://tranco-list.eu/list/8PX5V>) and save the zip in `resources/` under a name
-   starting with `tranco`, for example `resources/tranco_top-1m_8PX5V.csv.zip`.
-3. **Run.**
+Place the two corpora as described in [`data/README.txt`](data/README.txt), then:
 
 ```bash
-python url_ensemble_pipeline.py
+python run_experiments.py all
 ```
 
-The run takes roughly 15 minutes on a desktop CPU and writes to `results/`:
+```bash
+python analysis.py
+```
+
+The full run takes several hours on a four-core CPU; every finished split is appended to
+`results/raw/splits.jsonl`, so an interrupted run resumes. A quick end-to-end check on a tiny
+subsample:
+
+```bash
+python run_experiments.py all --smoke
+```
 
 | File | Contents |
 |---|---|
-| `table1_metrics.csv` | Random split, all five models |
-| `metrics_all_experiments.csv` | Random split with and without the rank feature |
-| `host_disjoint_splits.csv` | Every model on every host-disjoint split |
-| `host_disjoint_summary.csv` | Mean and standard deviation over the five splits |
-| `chi2_feature_scores.csv` | Chi-squared score of each feature and whether it was selected |
-| `confusion_*.csv`, `confusion_*.png` | Confusion matrices on the random split |
-| `classification_report_ensemble.txt` | Per-class precision, recall and F1 of the ensemble |
-| `run_summary.json` | Row counts, selected features, host statistics, package versions |
+| `url_ensemble_pipeline.py` | Corpus loaders, the 50 URL features, registered-domain grouping, classifiers |
+| `char_models.py` | Character n-gram model and character CNN |
+| `run_experiments.py` | Repeated-split experiments, tuning, cross-corpus transfer |
+| `analysis.py` | Intervals, paired tests, tables and figures |
+| `results/summary_by_protocol.csv` | Mean, SD and interval per corpus, experiment, protocol and model |
+| `results/inflation.csv` | Random-split minus grouped-split accuracy with intervals |
+| `results/paired_tests.csv` | Corrected paired t-tests and Wilcoxon tests between models |
+| `results/cross_corpus.csv` | Cross-corpus accuracy and per-class recall |
+| `results/sensitivity_vs_headline.csv` | Rank feature, HTML-unescaping and tuning against the main setup |
+| `results/corpus_audit.csv` | Hosts, registered domains, suffixes and formatting per class |
+| `results/per_class.csv`, `results/confusion_pooled.csv` | Per-class recall and pooled confusion matrices |
+| `results/errors_*.csv` | Where the domain-disjoint errors fall |
+| `results/raw/splits.jsonl` | One line per model per split |
 
-Results are seeded (`SEED = 42`); fit and prediction times vary between machines.
+`results/raw/test_domains.jsonl` (the per-split list of test domains, about 130 MB) is not
+included; it is regenerated by `run_experiments.py`.
+
+## Notes on method
+
+- Intervals and paired tests use the corrected resampled variance of Nadeau and Bengio (2003),
+  because repeated splits share training data.
+- Registered domains are derived with the Public Suffix List bundled with `tldextract`.
+- The web-traffic-rank feature is excluded from the main experiments and reported only as a
+  sensitivity analysis: the available Tranco list (ID `8PX5V`) post-dates the ISCX-URL-2016 URLs.
+- All seeds are fixed (`SEED = 42`).
 
 ## Data sources
 
 - Mamun, M. S. I., Rathore, M. A., Lashkari, A. H., Stakhanova, N., & Ghorbani, A. A. (2016).
   Detecting malicious URLs using lexical analysis. *Network and System Security*, 467–482.
   <https://doi.org/10.1007/978-3-319-46298-1_30>
+- Prasad, A., & Chandra, S. (2024). PhiUSIIL: A diverse security profile empowered phishing URL
+  detection framework based on similarity index and incremental learning. *Computers & Security*,
+  136, 103545. <https://doi.org/10.1016/j.cose.2023.103545>
 - Le Pochat, V., Van Goethem, T., Tajalizadehkhoob, S., Korczyński, M., & Joosen, W. (2019).
   Tranco: A research-oriented top sites ranking hardened against manipulation. *NDSS 2019*.
   <https://doi.org/10.14722/ndss.2019.23386>

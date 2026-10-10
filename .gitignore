@@ -1,5 +1,6 @@
-# manuscript drafts and the superseded notebook/script stay local
+# manuscript drafts, the manuscript builder and the superseded notebook/script stay local
 *.docx
+build_paper.py
 AAE_MODEL_TRAINING.ipynb
 aae_pipeline.py
 results/*aae*
@@ -12,5 +13,15 @@ catboost_info/
 *.pyc
 
 # third-party data is downloaded separately (see README.md)
-data/*.csv
+data/iscx/
+data/phiusiil/
 resources/
+
+# scratch output
+results_smoke/
+results_phi/
+results_cnn/
+results_cross/
+results/raw/*.log
+results/raw/merged.txt
+results/raw/test_domains.jsonl

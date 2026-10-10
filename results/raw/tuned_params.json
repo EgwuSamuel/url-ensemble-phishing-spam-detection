@@ -1,0 +1,44 @@
+{
+  "ISCX-URL-2016": {
+    "Logistic Regression": {
+      "C": 0.01
+    },
+    "Decision Tree": {
+      "max_depth": 10,
+      "min_samples_leaf": 5
+    },
+    "Random Forest": {
+      "n_estimators": 200,
+      "max_depth": null,
+      "min_samples_leaf": 5,
+      "max_features": "sqrt"
+    },
+    "CatBoost": {
+      "depth": 4,
+      "learning_rate": 0.03,
+      "l2_leaf_reg": 3,
+      "iterations": 600
+    }
+  },
+  "PhiUSIIL": {
+    "Logistic Regression": {
+      "C": 100.0
+    },
+    "Decision Tree": {
+      "max_depth": 30,
+      "min_samples_leaf": 2
+    },
+    "Random Forest": {
+      "n_estimators": 200,
+      "max_depth": 20,
+      "min_samples_leaf": 2,
+      "max_features": 0.5
+    },
+    "CatBoost": {
+      "depth": 8,
+      "learning_rate": 0.3,
+      "l2_leaf_reg": 1,
+      "iterations": 300
+    }
+  }
+}

@@ -1,0 +1,724 @@
+corpus,experiment,protocol,model,true,pred,count
+ISCX-URL-2016,headline,random,Logistic Regression,benign,benign,207361
+ISCX-URL-2016,headline,random,Logistic Regression,benign,phishing,1586
+ISCX-URL-2016,headline,random,Logistic Regression,benign,spam,3333
+ISCX-URL-2016,headline,random,Logistic Regression,phishing,benign,5723
+ISCX-URL-2016,headline,random,Logistic Regression,phishing,phishing,43785
+ISCX-URL-2016,headline,random,Logistic Regression,phishing,spam,10282
+ISCX-URL-2016,headline,random,Logistic Regression,spam,benign,1263
+ISCX-URL-2016,headline,random,Logistic Regression,spam,phishing,9873
+ISCX-URL-2016,headline,random,Logistic Regression,spam,spam,60864
+ISCX-URL-2016,headline,random,Decision Tree,benign,benign,211652
+ISCX-URL-2016,headline,random,Decision Tree,benign,phishing,569
+ISCX-URL-2016,headline,random,Decision Tree,benign,spam,59
+ISCX-URL-2016,headline,random,Decision Tree,phishing,benign,701
+ISCX-URL-2016,headline,random,Decision Tree,phishing,phishing,57227
+ISCX-URL-2016,headline,random,Decision Tree,phishing,spam,1862
+ISCX-URL-2016,headline,random,Decision Tree,spam,benign,50
+ISCX-URL-2016,headline,random,Decision Tree,spam,phishing,1582
+ISCX-URL-2016,headline,random,Decision Tree,spam,spam,70368
+ISCX-URL-2016,headline,random,Random Forest,benign,benign,212004
+ISCX-URL-2016,headline,random,Random Forest,benign,phishing,215
+ISCX-URL-2016,headline,random,Random Forest,benign,spam,61
+ISCX-URL-2016,headline,random,Random Forest,phishing,benign,603
+ISCX-URL-2016,headline,random,Random Forest,phishing,phishing,57930
+ISCX-URL-2016,headline,random,Random Forest,phishing,spam,1257
+ISCX-URL-2016,headline,random,Random Forest,spam,benign,44
+ISCX-URL-2016,headline,random,Random Forest,spam,phishing,1325
+ISCX-URL-2016,headline,random,Random Forest,spam,spam,70631
+ISCX-URL-2016,headline,random,CatBoost,benign,benign,211984
+ISCX-URL-2016,headline,random,CatBoost,benign,phishing,213
+ISCX-URL-2016,headline,random,CatBoost,benign,spam,83
+ISCX-URL-2016,headline,random,CatBoost,phishing,benign,1043
+ISCX-URL-2016,headline,random,CatBoost,phishing,phishing,57143
+ISCX-URL-2016,headline,random,CatBoost,phishing,spam,1604
+ISCX-URL-2016,headline,random,CatBoost,spam,benign,70
+ISCX-URL-2016,headline,random,CatBoost,spam,phishing,1234
+ISCX-URL-2016,headline,random,CatBoost,spam,spam,70696
+ISCX-URL-2016,headline,random,Soft-voting ensemble,benign,benign,212020
+ISCX-URL-2016,headline,random,Soft-voting ensemble,benign,phishing,194
+ISCX-URL-2016,headline,random,Soft-voting ensemble,benign,spam,66
+ISCX-URL-2016,headline,random,Soft-voting ensemble,phishing,benign,827
+ISCX-URL-2016,headline,random,Soft-voting ensemble,phishing,phishing,57491
+ISCX-URL-2016,headline,random,Soft-voting ensemble,phishing,spam,1472
+ISCX-URL-2016,headline,random,Soft-voting ensemble,spam,benign,44
+ISCX-URL-2016,headline,random,Soft-voting ensemble,spam,phishing,1334
+ISCX-URL-2016,headline,random,Soft-voting ensemble,spam,spam,70622
+ISCX-URL-2016,headline,random,Char n-gram LR,benign,benign,212158
+ISCX-URL-2016,headline,random,Char n-gram LR,benign,phishing,122
+ISCX-URL-2016,headline,random,Char n-gram LR,benign,spam,0
+ISCX-URL-2016,headline,random,Char n-gram LR,phishing,benign,386
+ISCX-URL-2016,headline,random,Char n-gram LR,phishing,phishing,59351
+ISCX-URL-2016,headline,random,Char n-gram LR,phishing,spam,53
+ISCX-URL-2016,headline,random,Char n-gram LR,spam,benign,10
+ISCX-URL-2016,headline,random,Char n-gram LR,spam,phishing,10
+ISCX-URL-2016,headline,random,Char n-gram LR,spam,spam,71980
+ISCX-URL-2016,headline,random,Artefact-only RF,benign,benign,210033
+ISCX-URL-2016,headline,random,Artefact-only RF,benign,phishing,401
+ISCX-URL-2016,headline,random,Artefact-only RF,benign,spam,1846
+ISCX-URL-2016,headline,random,Artefact-only RF,phishing,benign,24781
+ISCX-URL-2016,headline,random,Artefact-only RF,phishing,phishing,33091
+ISCX-URL-2016,headline,random,Artefact-only RF,phishing,spam,1918
+ISCX-URL-2016,headline,random,Artefact-only RF,spam,benign,0
+ISCX-URL-2016,headline,random,Artefact-only RF,spam,phishing,13
+ISCX-URL-2016,headline,random,Artefact-only RF,spam,spam,71987
+ISCX-URL-2016,headline,domain,Logistic Regression,benign,benign,179468
+ISCX-URL-2016,headline,domain,Logistic Regression,benign,phishing,12555
+ISCX-URL-2016,headline,domain,Logistic Regression,benign,spam,3036
+ISCX-URL-2016,headline,domain,Logistic Regression,phishing,benign,12164
+ISCX-URL-2016,headline,domain,Logistic Regression,phishing,phishing,40274
+ISCX-URL-2016,headline,domain,Logistic Regression,phishing,spam,10946
+ISCX-URL-2016,headline,domain,Logistic Regression,spam,benign,5514
+ISCX-URL-2016,headline,domain,Logistic Regression,spam,phishing,23010
+ISCX-URL-2016,headline,domain,Logistic Regression,spam,spam,41624
+ISCX-URL-2016,headline,domain,Decision Tree,benign,benign,171174
+ISCX-URL-2016,headline,domain,Decision Tree,benign,phishing,21292
+ISCX-URL-2016,headline,domain,Decision Tree,benign,spam,2593
+ISCX-URL-2016,headline,domain,Decision Tree,phishing,benign,1314
+ISCX-URL-2016,headline,domain,Decision Tree,phishing,phishing,59779
+ISCX-URL-2016,headline,domain,Decision Tree,phishing,spam,2291
+ISCX-URL-2016,headline,domain,Decision Tree,spam,benign,4291
+ISCX-URL-2016,headline,domain,Decision Tree,spam,phishing,32021
+ISCX-URL-2016,headline,domain,Decision Tree,spam,spam,33836
+ISCX-URL-2016,headline,domain,Random Forest,benign,benign,178391
+ISCX-URL-2016,headline,domain,Random Forest,benign,phishing,14948
+ISCX-URL-2016,headline,domain,Random Forest,benign,spam,1720
+ISCX-URL-2016,headline,domain,Random Forest,phishing,benign,1098
+ISCX-URL-2016,headline,domain,Random Forest,phishing,phishing,60740
+ISCX-URL-2016,headline,domain,Random Forest,phishing,spam,1546
+ISCX-URL-2016,headline,domain,Random Forest,spam,benign,4572
+ISCX-URL-2016,headline,domain,Random Forest,spam,phishing,29544
+ISCX-URL-2016,headline,domain,Random Forest,spam,spam,36032
+ISCX-URL-2016,headline,domain,CatBoost,benign,benign,180919
+ISCX-URL-2016,headline,domain,CatBoost,benign,phishing,12576
+ISCX-URL-2016,headline,domain,CatBoost,benign,spam,1564
+ISCX-URL-2016,headline,domain,CatBoost,phishing,benign,1398
+ISCX-URL-2016,headline,domain,CatBoost,phishing,phishing,60082
+ISCX-URL-2016,headline,domain,CatBoost,phishing,spam,1904
+ISCX-URL-2016,headline,domain,CatBoost,spam,benign,5218
+ISCX-URL-2016,headline,domain,CatBoost,spam,phishing,28122
+ISCX-URL-2016,headline,domain,CatBoost,spam,spam,36808
+ISCX-URL-2016,headline,domain,Soft-voting ensemble,benign,benign,178614
+ISCX-URL-2016,headline,domain,Soft-voting ensemble,benign,phishing,14178
+ISCX-URL-2016,headline,domain,Soft-voting ensemble,benign,spam,2267
+ISCX-URL-2016,headline,domain,Soft-voting ensemble,phishing,benign,1296
+ISCX-URL-2016,headline,domain,Soft-voting ensemble,phishing,phishing,60295
+ISCX-URL-2016,headline,domain,Soft-voting ensemble,phishing,spam,1793
+ISCX-URL-2016,headline,domain,Soft-voting ensemble,spam,benign,5013
+ISCX-URL-2016,headline,domain,Soft-voting ensemble,spam,phishing,26842
+ISCX-URL-2016,headline,domain,Soft-voting ensemble,spam,spam,38293
+ISCX-URL-2016,headline,domain,Char n-gram LR,benign,benign,189539
+ISCX-URL-2016,headline,domain,Char n-gram LR,benign,phishing,5470
+ISCX-URL-2016,headline,domain,Char n-gram LR,benign,spam,50
+ISCX-URL-2016,headline,domain,Char n-gram LR,phishing,benign,850
+ISCX-URL-2016,headline,domain,Char n-gram LR,phishing,phishing,62444
+ISCX-URL-2016,headline,domain,Char n-gram LR,phishing,spam,90
+ISCX-URL-2016,headline,domain,Char n-gram LR,spam,benign,2129
+ISCX-URL-2016,headline,domain,Char n-gram LR,spam,phishing,1895
+ISCX-URL-2016,headline,domain,Char n-gram LR,spam,spam,66124
+ISCX-URL-2016,headline,domain,Artefact-only RF,benign,benign,174898
+ISCX-URL-2016,headline,domain,Artefact-only RF,benign,phishing,17984
+ISCX-URL-2016,headline,domain,Artefact-only RF,benign,spam,2177
+ISCX-URL-2016,headline,domain,Artefact-only RF,phishing,benign,27571
+ISCX-URL-2016,headline,domain,Artefact-only RF,phishing,phishing,34064
+ISCX-URL-2016,headline,domain,Artefact-only RF,phishing,spam,1749
+ISCX-URL-2016,headline,domain,Artefact-only RF,spam,benign,0
+ISCX-URL-2016,headline,domain,Artefact-only RF,spam,phishing,177
+ISCX-URL-2016,headline,domain,Artefact-only RF,spam,spam,69971
+ISCX-URL-2016,headline,host,Logistic Regression,benign,benign,207991
+ISCX-URL-2016,headline,host,Logistic Regression,benign,phishing,14015
+ISCX-URL-2016,headline,host,Logistic Regression,benign,spam,5324
+ISCX-URL-2016,headline,host,Logistic Regression,phishing,benign,11171
+ISCX-URL-2016,headline,host,Logistic Regression,phishing,phishing,38346
+ISCX-URL-2016,headline,host,Logistic Regression,phishing,spam,10450
+ISCX-URL-2016,headline,host,Logistic Regression,spam,benign,3740
+ISCX-URL-2016,headline,host,Logistic Regression,spam,phishing,25542
+ISCX-URL-2016,headline,host,Logistic Regression,spam,spam,42714
+ISCX-URL-2016,headline,host,Decision Tree,benign,benign,200405
+ISCX-URL-2016,headline,host,Decision Tree,benign,phishing,23985
+ISCX-URL-2016,headline,host,Decision Tree,benign,spam,2940
+ISCX-URL-2016,headline,host,Decision Tree,phishing,benign,1405
+ISCX-URL-2016,headline,host,Decision Tree,phishing,phishing,56308
+ISCX-URL-2016,headline,host,Decision Tree,phishing,spam,2254
+ISCX-URL-2016,headline,host,Decision Tree,spam,benign,5900
+ISCX-URL-2016,headline,host,Decision Tree,spam,phishing,36712
+ISCX-URL-2016,headline,host,Decision Tree,spam,spam,29384
+ISCX-URL-2016,headline,host,Random Forest,benign,benign,207634
+ISCX-URL-2016,headline,host,Random Forest,benign,phishing,17423
+ISCX-URL-2016,headline,host,Random Forest,benign,spam,2273
+ISCX-URL-2016,headline,host,Random Forest,phishing,benign,1159
+ISCX-URL-2016,headline,host,Random Forest,phishing,phishing,57297
+ISCX-URL-2016,headline,host,Random Forest,phishing,spam,1511
+ISCX-URL-2016,headline,host,Random Forest,spam,benign,3918
+ISCX-URL-2016,headline,host,Random Forest,spam,phishing,32075
+ISCX-URL-2016,headline,host,Random Forest,spam,spam,36003
+ISCX-URL-2016,headline,host,CatBoost,benign,benign,210018
+ISCX-URL-2016,headline,host,CatBoost,benign,phishing,15186
+ISCX-URL-2016,headline,host,CatBoost,benign,spam,2126
+ISCX-URL-2016,headline,host,CatBoost,phishing,benign,1389
+ISCX-URL-2016,headline,host,CatBoost,phishing,phishing,56790
+ISCX-URL-2016,headline,host,CatBoost,phishing,spam,1788
+ISCX-URL-2016,headline,host,CatBoost,spam,benign,3711
+ISCX-URL-2016,headline,host,CatBoost,spam,phishing,32114
+ISCX-URL-2016,headline,host,CatBoost,spam,spam,36171
+ISCX-URL-2016,headline,host,Soft-voting ensemble,benign,benign,207383
+ISCX-URL-2016,headline,host,Soft-voting ensemble,benign,phishing,17181
+ISCX-URL-2016,headline,host,Soft-voting ensemble,benign,spam,2766
+ISCX-URL-2016,headline,host,Soft-voting ensemble,phishing,benign,1398
+ISCX-URL-2016,headline,host,Soft-voting ensemble,phishing,phishing,56832
+ISCX-URL-2016,headline,host,Soft-voting ensemble,phishing,spam,1737
+ISCX-URL-2016,headline,host,Soft-voting ensemble,spam,benign,4021
+ISCX-URL-2016,headline,host,Soft-voting ensemble,spam,phishing,32432
+ISCX-URL-2016,headline,host,Soft-voting ensemble,spam,spam,35543
+ISCX-URL-2016,with_rank,random,Logistic Regression,benign,benign,69561
+ISCX-URL-2016,with_rank,random,Logistic Regression,benign,phishing,412
+ISCX-URL-2016,with_rank,random,Logistic Regression,benign,spam,787
+ISCX-URL-2016,with_rank,random,Logistic Regression,phishing,benign,499
+ISCX-URL-2016,with_rank,random,Logistic Regression,phishing,phishing,16852
+ISCX-URL-2016,with_rank,random,Logistic Regression,phishing,spam,2579
+ISCX-URL-2016,with_rank,random,Logistic Regression,spam,benign,498
+ISCX-URL-2016,with_rank,random,Logistic Regression,spam,phishing,2875
+ISCX-URL-2016,with_rank,random,Logistic Regression,spam,spam,20627
+ISCX-URL-2016,with_rank,random,Decision Tree,benign,benign,70699
+ISCX-URL-2016,with_rank,random,Decision Tree,benign,phishing,48
+ISCX-URL-2016,with_rank,random,Decision Tree,benign,spam,13
+ISCX-URL-2016,with_rank,random,Decision Tree,phishing,benign,78
+ISCX-URL-2016,with_rank,random,Decision Tree,phishing,phishing,19412
+ISCX-URL-2016,with_rank,random,Decision Tree,phishing,spam,440
+ISCX-URL-2016,with_rank,random,Decision Tree,spam,benign,8
+ISCX-URL-2016,with_rank,random,Decision Tree,spam,phishing,318
+ISCX-URL-2016,with_rank,random,Decision Tree,spam,spam,23674
+ISCX-URL-2016,with_rank,random,Random Forest,benign,benign,70735
+ISCX-URL-2016,with_rank,random,Random Forest,benign,phishing,19
+ISCX-URL-2016,with_rank,random,Random Forest,benign,spam,6
+ISCX-URL-2016,with_rank,random,Random Forest,phishing,benign,81
+ISCX-URL-2016,with_rank,random,Random Forest,phishing,phishing,19608
+ISCX-URL-2016,with_rank,random,Random Forest,phishing,spam,241
+ISCX-URL-2016,with_rank,random,Random Forest,spam,benign,10
+ISCX-URL-2016,with_rank,random,Random Forest,spam,phishing,290
+ISCX-URL-2016,with_rank,random,Random Forest,spam,spam,23700
+ISCX-URL-2016,with_rank,random,CatBoost,benign,benign,70726
+ISCX-URL-2016,with_rank,random,CatBoost,benign,phishing,19
+ISCX-URL-2016,with_rank,random,CatBoost,benign,spam,15
+ISCX-URL-2016,with_rank,random,CatBoost,phishing,benign,105
+ISCX-URL-2016,with_rank,random,CatBoost,phishing,phishing,19516
+ISCX-URL-2016,with_rank,random,CatBoost,phishing,spam,309
+ISCX-URL-2016,with_rank,random,CatBoost,spam,benign,17
+ISCX-URL-2016,with_rank,random,CatBoost,spam,phishing,271
+ISCX-URL-2016,with_rank,random,CatBoost,spam,spam,23712
+ISCX-URL-2016,with_rank,random,Soft-voting ensemble,benign,benign,70733
+ISCX-URL-2016,with_rank,random,Soft-voting ensemble,benign,phishing,20
+ISCX-URL-2016,with_rank,random,Soft-voting ensemble,benign,spam,7
+ISCX-URL-2016,with_rank,random,Soft-voting ensemble,phishing,benign,84
+ISCX-URL-2016,with_rank,random,Soft-voting ensemble,phishing,phishing,19573
+ISCX-URL-2016,with_rank,random,Soft-voting ensemble,phishing,spam,273
+ISCX-URL-2016,with_rank,random,Soft-voting ensemble,spam,benign,8
+ISCX-URL-2016,with_rank,random,Soft-voting ensemble,spam,phishing,303
+ISCX-URL-2016,with_rank,random,Soft-voting ensemble,spam,spam,23689
+ISCX-URL-2016,with_rank,domain,Logistic Regression,benign,benign,54906
+ISCX-URL-2016,with_rank,domain,Logistic Regression,benign,phishing,4316
+ISCX-URL-2016,with_rank,domain,Logistic Regression,benign,spam,582
+ISCX-URL-2016,with_rank,domain,Logistic Regression,phishing,benign,517
+ISCX-URL-2016,with_rank,domain,Logistic Regression,phishing,phishing,16268
+ISCX-URL-2016,with_rank,domain,Logistic Regression,phishing,spam,3814
+ISCX-URL-2016,with_rank,domain,Logistic Regression,spam,benign,1900
+ISCX-URL-2016,with_rank,domain,Logistic Regression,spam,phishing,4287
+ISCX-URL-2016,with_rank,domain,Logistic Regression,spam,spam,12746
+ISCX-URL-2016,with_rank,domain,Decision Tree,benign,benign,51146
+ISCX-URL-2016,with_rank,domain,Decision Tree,benign,phishing,6899
+ISCX-URL-2016,with_rank,domain,Decision Tree,benign,spam,1759
+ISCX-URL-2016,with_rank,domain,Decision Tree,phishing,benign,201
+ISCX-URL-2016,with_rank,domain,Decision Tree,phishing,phishing,19724
+ISCX-URL-2016,with_rank,domain,Decision Tree,phishing,spam,674
+ISCX-URL-2016,with_rank,domain,Decision Tree,spam,benign,520
+ISCX-URL-2016,with_rank,domain,Decision Tree,spam,phishing,8582
+ISCX-URL-2016,with_rank,domain,Decision Tree,spam,spam,9831
+ISCX-URL-2016,with_rank,domain,Random Forest,benign,benign,53910
+ISCX-URL-2016,with_rank,domain,Random Forest,benign,phishing,5216
+ISCX-URL-2016,with_rank,domain,Random Forest,benign,spam,678
+ISCX-URL-2016,with_rank,domain,Random Forest,phishing,benign,156
+ISCX-URL-2016,with_rank,domain,Random Forest,phishing,phishing,20108
+ISCX-URL-2016,with_rank,domain,Random Forest,phishing,spam,335
+ISCX-URL-2016,with_rank,domain,Random Forest,spam,benign,977
+ISCX-URL-2016,with_rank,domain,Random Forest,spam,phishing,7818
+ISCX-URL-2016,with_rank,domain,Random Forest,spam,spam,10138
+ISCX-URL-2016,with_rank,domain,CatBoost,benign,benign,54106
+ISCX-URL-2016,with_rank,domain,CatBoost,benign,phishing,4887
+ISCX-URL-2016,with_rank,domain,CatBoost,benign,spam,811
+ISCX-URL-2016,with_rank,domain,CatBoost,phishing,benign,406
+ISCX-URL-2016,with_rank,domain,CatBoost,phishing,phishing,19784
+ISCX-URL-2016,with_rank,domain,CatBoost,phishing,spam,409
+ISCX-URL-2016,with_rank,domain,CatBoost,spam,benign,1121
+ISCX-URL-2016,with_rank,domain,CatBoost,spam,phishing,6897
+ISCX-URL-2016,with_rank,domain,CatBoost,spam,spam,10915
+ISCX-URL-2016,with_rank,domain,Soft-voting ensemble,benign,benign,53995
+ISCX-URL-2016,with_rank,domain,Soft-voting ensemble,benign,phishing,4957
+ISCX-URL-2016,with_rank,domain,Soft-voting ensemble,benign,spam,852
+ISCX-URL-2016,with_rank,domain,Soft-voting ensemble,phishing,benign,188
+ISCX-URL-2016,with_rank,domain,Soft-voting ensemble,phishing,phishing,19941
+ISCX-URL-2016,with_rank,domain,Soft-voting ensemble,phishing,spam,470
+ISCX-URL-2016,with_rank,domain,Soft-voting ensemble,spam,benign,768
+ISCX-URL-2016,with_rank,domain,Soft-voting ensemble,spam,phishing,6874
+ISCX-URL-2016,with_rank,domain,Soft-voting ensemble,spam,spam,11291
+ISCX-URL-2016,benign_vs_malicious,random,Logistic Regression,benign,benign,68957
+ISCX-URL-2016,benign_vs_malicious,random,Logistic Regression,benign,malicious,1803
+ISCX-URL-2016,benign_vs_malicious,random,Logistic Regression,malicious,benign,2104
+ISCX-URL-2016,benign_vs_malicious,random,Logistic Regression,malicious,malicious,41826
+ISCX-URL-2016,benign_vs_malicious,random,Decision Tree,benign,benign,70526
+ISCX-URL-2016,benign_vs_malicious,random,Decision Tree,benign,malicious,234
+ISCX-URL-2016,benign_vs_malicious,random,Decision Tree,malicious,benign,233
+ISCX-URL-2016,benign_vs_malicious,random,Decision Tree,malicious,malicious,43697
+ISCX-URL-2016,benign_vs_malicious,random,Random Forest,benign,benign,70665
+ISCX-URL-2016,benign_vs_malicious,random,Random Forest,benign,malicious,95
+ISCX-URL-2016,benign_vs_malicious,random,Random Forest,malicious,benign,215
+ISCX-URL-2016,benign_vs_malicious,random,Random Forest,malicious,malicious,43715
+ISCX-URL-2016,benign_vs_malicious,random,CatBoost,benign,benign,70663
+ISCX-URL-2016,benign_vs_malicious,random,CatBoost,benign,malicious,97
+ISCX-URL-2016,benign_vs_malicious,random,CatBoost,malicious,benign,353
+ISCX-URL-2016,benign_vs_malicious,random,CatBoost,malicious,malicious,43577
+ISCX-URL-2016,benign_vs_malicious,random,Soft-voting ensemble,benign,benign,70648
+ISCX-URL-2016,benign_vs_malicious,random,Soft-voting ensemble,benign,malicious,112
+ISCX-URL-2016,benign_vs_malicious,random,Soft-voting ensemble,malicious,benign,255
+ISCX-URL-2016,benign_vs_malicious,random,Soft-voting ensemble,malicious,malicious,43675
+ISCX-URL-2016,benign_vs_malicious,domain,Logistic Regression,benign,benign,53934
+ISCX-URL-2016,benign_vs_malicious,domain,Logistic Regression,benign,malicious,5870
+ISCX-URL-2016,benign_vs_malicious,domain,Logistic Regression,malicious,benign,2756
+ISCX-URL-2016,benign_vs_malicious,domain,Logistic Regression,malicious,malicious,36776
+ISCX-URL-2016,benign_vs_malicious,domain,Decision Tree,benign,benign,52844
+ISCX-URL-2016,benign_vs_malicious,domain,Decision Tree,benign,malicious,6960
+ISCX-URL-2016,benign_vs_malicious,domain,Decision Tree,malicious,benign,1634
+ISCX-URL-2016,benign_vs_malicious,domain,Decision Tree,malicious,malicious,37898
+ISCX-URL-2016,benign_vs_malicious,domain,Random Forest,benign,benign,53384
+ISCX-URL-2016,benign_vs_malicious,domain,Random Forest,benign,malicious,6420
+ISCX-URL-2016,benign_vs_malicious,domain,Random Forest,malicious,benign,719
+ISCX-URL-2016,benign_vs_malicious,domain,Random Forest,malicious,malicious,38813
+ISCX-URL-2016,benign_vs_malicious,domain,CatBoost,benign,benign,54031
+ISCX-URL-2016,benign_vs_malicious,domain,CatBoost,benign,malicious,5773
+ISCX-URL-2016,benign_vs_malicious,domain,CatBoost,malicious,benign,983
+ISCX-URL-2016,benign_vs_malicious,domain,CatBoost,malicious,malicious,38549
+ISCX-URL-2016,benign_vs_malicious,domain,Soft-voting ensemble,benign,benign,54255
+ISCX-URL-2016,benign_vs_malicious,domain,Soft-voting ensemble,benign,malicious,5549
+ISCX-URL-2016,benign_vs_malicious,domain,Soft-voting ensemble,malicious,benign,1043
+ISCX-URL-2016,benign_vs_malicious,domain,Soft-voting ensemble,malicious,malicious,38489
+ISCX-URL-2016,benign_vs_phishing,random,Logistic Regression,benign,benign,69857
+ISCX-URL-2016,benign_vs_phishing,random,Logistic Regression,benign,phishing,903
+ISCX-URL-2016,benign_vs_phishing,random,Logistic Regression,phishing,benign,1698
+ISCX-URL-2016,benign_vs_phishing,random,Logistic Regression,phishing,phishing,18232
+ISCX-URL-2016,benign_vs_phishing,random,Decision Tree,benign,benign,70550
+ISCX-URL-2016,benign_vs_phishing,random,Decision Tree,benign,phishing,210
+ISCX-URL-2016,benign_vs_phishing,random,Decision Tree,phishing,benign,252
+ISCX-URL-2016,benign_vs_phishing,random,Decision Tree,phishing,phishing,19678
+ISCX-URL-2016,benign_vs_phishing,random,Random Forest,benign,benign,70696
+ISCX-URL-2016,benign_vs_phishing,random,Random Forest,benign,phishing,64
+ISCX-URL-2016,benign_vs_phishing,random,Random Forest,phishing,benign,239
+ISCX-URL-2016,benign_vs_phishing,random,Random Forest,phishing,phishing,19691
+ISCX-URL-2016,benign_vs_phishing,random,CatBoost,benign,benign,70702
+ISCX-URL-2016,benign_vs_phishing,random,CatBoost,benign,phishing,58
+ISCX-URL-2016,benign_vs_phishing,random,CatBoost,phishing,benign,318
+ISCX-URL-2016,benign_vs_phishing,random,CatBoost,phishing,phishing,19612
+ISCX-URL-2016,benign_vs_phishing,random,Soft-voting ensemble,benign,benign,70697
+ISCX-URL-2016,benign_vs_phishing,random,Soft-voting ensemble,benign,phishing,63
+ISCX-URL-2016,benign_vs_phishing,random,Soft-voting ensemble,phishing,benign,275
+ISCX-URL-2016,benign_vs_phishing,random,Soft-voting ensemble,phishing,phishing,19655
+ISCX-URL-2016,benign_vs_phishing,random,Char n-gram LR,benign,benign,70711
+ISCX-URL-2016,benign_vs_phishing,random,Char n-gram LR,benign,phishing,49
+ISCX-URL-2016,benign_vs_phishing,random,Char n-gram LR,phishing,benign,128
+ISCX-URL-2016,benign_vs_phishing,random,Char n-gram LR,phishing,phishing,19802
+ISCX-URL-2016,benign_vs_phishing,random,Artefact-only RF,benign,benign,70359
+ISCX-URL-2016,benign_vs_phishing,random,Artefact-only RF,benign,phishing,401
+ISCX-URL-2016,benign_vs_phishing,random,Artefact-only RF,phishing,benign,8595
+ISCX-URL-2016,benign_vs_phishing,random,Artefact-only RF,phishing,phishing,11335
+ISCX-URL-2016,benign_vs_phishing,domain,Logistic Regression,benign,benign,63863
+ISCX-URL-2016,benign_vs_phishing,domain,Logistic Regression,benign,phishing,5111
+ISCX-URL-2016,benign_vs_phishing,domain,Logistic Regression,phishing,benign,2569
+ISCX-URL-2016,benign_vs_phishing,domain,Logistic Regression,phishing,phishing,17649
+ISCX-URL-2016,benign_vs_phishing,domain,Decision Tree,benign,benign,62649
+ISCX-URL-2016,benign_vs_phishing,domain,Decision Tree,benign,phishing,6325
+ISCX-URL-2016,benign_vs_phishing,domain,Decision Tree,phishing,benign,449
+ISCX-URL-2016,benign_vs_phishing,domain,Decision Tree,phishing,phishing,19769
+ISCX-URL-2016,benign_vs_phishing,domain,Random Forest,benign,benign,63032
+ISCX-URL-2016,benign_vs_phishing,domain,Random Forest,benign,phishing,5942
+ISCX-URL-2016,benign_vs_phishing,domain,Random Forest,phishing,benign,388
+ISCX-URL-2016,benign_vs_phishing,domain,Random Forest,phishing,phishing,19830
+ISCX-URL-2016,benign_vs_phishing,domain,CatBoost,benign,benign,64160
+ISCX-URL-2016,benign_vs_phishing,domain,CatBoost,benign,phishing,4814
+ISCX-URL-2016,benign_vs_phishing,domain,CatBoost,phishing,benign,472
+ISCX-URL-2016,benign_vs_phishing,domain,CatBoost,phishing,phishing,19746
+ISCX-URL-2016,benign_vs_phishing,domain,Soft-voting ensemble,benign,benign,64059
+ISCX-URL-2016,benign_vs_phishing,domain,Soft-voting ensemble,benign,phishing,4915
+ISCX-URL-2016,benign_vs_phishing,domain,Soft-voting ensemble,phishing,benign,424
+ISCX-URL-2016,benign_vs_phishing,domain,Soft-voting ensemble,phishing,phishing,19794
+ISCX-URL-2016,benign_vs_phishing,domain,Char n-gram LR,benign,benign,66704
+ISCX-URL-2016,benign_vs_phishing,domain,Char n-gram LR,benign,phishing,2270
+ISCX-URL-2016,benign_vs_phishing,domain,Char n-gram LR,phishing,benign,353
+ISCX-URL-2016,benign_vs_phishing,domain,Char n-gram LR,phishing,phishing,19865
+ISCX-URL-2016,benign_vs_phishing,domain,Artefact-only RF,benign,benign,60341
+ISCX-URL-2016,benign_vs_phishing,domain,Artefact-only RF,benign,phishing,8633
+ISCX-URL-2016,benign_vs_phishing,domain,Artefact-only RF,phishing,benign,8961
+ISCX-URL-2016,benign_vs_phishing,domain,Artefact-only RF,phishing,phishing,11257
+ISCX-URL-2016,unescaped,random,Logistic Regression,benign,benign,69117
+ISCX-URL-2016,unescaped,random,Logistic Regression,benign,phishing,528
+ISCX-URL-2016,unescaped,random,Logistic Regression,benign,spam,1115
+ISCX-URL-2016,unescaped,random,Logistic Regression,phishing,benign,1958
+ISCX-URL-2016,unescaped,random,Logistic Regression,phishing,phishing,14656
+ISCX-URL-2016,unescaped,random,Logistic Regression,phishing,spam,3316
+ISCX-URL-2016,unescaped,random,Logistic Regression,spam,benign,449
+ISCX-URL-2016,unescaped,random,Logistic Regression,spam,phishing,3231
+ISCX-URL-2016,unescaped,random,Logistic Regression,spam,spam,20320
+ISCX-URL-2016,unescaped,random,Decision Tree,benign,benign,70562
+ISCX-URL-2016,unescaped,random,Decision Tree,benign,phishing,177
+ISCX-URL-2016,unescaped,random,Decision Tree,benign,spam,21
+ISCX-URL-2016,unescaped,random,Decision Tree,phishing,benign,240
+ISCX-URL-2016,unescaped,random,Decision Tree,phishing,phishing,19084
+ISCX-URL-2016,unescaped,random,Decision Tree,phishing,spam,606
+ISCX-URL-2016,unescaped,random,Decision Tree,spam,benign,16
+ISCX-URL-2016,unescaped,random,Decision Tree,spam,phishing,509
+ISCX-URL-2016,unescaped,random,Decision Tree,spam,spam,23475
+ISCX-URL-2016,unescaped,random,Random Forest,benign,benign,70680
+ISCX-URL-2016,unescaped,random,Random Forest,benign,phishing,58
+ISCX-URL-2016,unescaped,random,Random Forest,benign,spam,22
+ISCX-URL-2016,unescaped,random,Random Forest,phishing,benign,216
+ISCX-URL-2016,unescaped,random,Random Forest,phishing,phishing,19323
+ISCX-URL-2016,unescaped,random,Random Forest,phishing,spam,391
+ISCX-URL-2016,unescaped,random,Random Forest,spam,benign,14
+ISCX-URL-2016,unescaped,random,Random Forest,spam,phishing,422
+ISCX-URL-2016,unescaped,random,Random Forest,spam,spam,23564
+ISCX-URL-2016,unescaped,random,CatBoost,benign,benign,70678
+ISCX-URL-2016,unescaped,random,CatBoost,benign,phishing,56
+ISCX-URL-2016,unescaped,random,CatBoost,benign,spam,26
+ISCX-URL-2016,unescaped,random,CatBoost,phishing,benign,352
+ISCX-URL-2016,unescaped,random,CatBoost,phishing,phishing,19096
+ISCX-URL-2016,unescaped,random,CatBoost,phishing,spam,482
+ISCX-URL-2016,unescaped,random,CatBoost,spam,benign,17
+ISCX-URL-2016,unescaped,random,CatBoost,spam,phishing,399
+ISCX-URL-2016,unescaped,random,CatBoost,spam,spam,23584
+ISCX-URL-2016,unescaped,random,Soft-voting ensemble,benign,benign,70675
+ISCX-URL-2016,unescaped,random,Soft-voting ensemble,benign,phishing,64
+ISCX-URL-2016,unescaped,random,Soft-voting ensemble,benign,spam,21
+ISCX-URL-2016,unescaped,random,Soft-voting ensemble,phishing,benign,292
+ISCX-URL-2016,unescaped,random,Soft-voting ensemble,phishing,phishing,19195
+ISCX-URL-2016,unescaped,random,Soft-voting ensemble,phishing,spam,443
+ISCX-URL-2016,unescaped,random,Soft-voting ensemble,spam,benign,12
+ISCX-URL-2016,unescaped,random,Soft-voting ensemble,spam,phishing,434
+ISCX-URL-2016,unescaped,random,Soft-voting ensemble,spam,spam,23554
+ISCX-URL-2016,unescaped,domain,Logistic Regression,benign,benign,54343
+ISCX-URL-2016,unescaped,domain,Logistic Regression,benign,phishing,4630
+ISCX-URL-2016,unescaped,domain,Logistic Regression,benign,spam,831
+ISCX-URL-2016,unescaped,domain,Logistic Regression,phishing,benign,2799
+ISCX-URL-2016,unescaped,domain,Logistic Regression,phishing,phishing,14187
+ISCX-URL-2016,unescaped,domain,Logistic Regression,phishing,spam,3613
+ISCX-URL-2016,unescaped,domain,Logistic Regression,spam,benign,1125
+ISCX-URL-2016,unescaped,domain,Logistic Regression,spam,phishing,5953
+ISCX-URL-2016,unescaped,domain,Logistic Regression,spam,spam,11855
+ISCX-URL-2016,unescaped,domain,Decision Tree,benign,benign,54384
+ISCX-URL-2016,unescaped,domain,Decision Tree,benign,phishing,4489
+ISCX-URL-2016,unescaped,domain,Decision Tree,benign,spam,931
+ISCX-URL-2016,unescaped,domain,Decision Tree,phishing,benign,433
+ISCX-URL-2016,unescaped,domain,Decision Tree,phishing,phishing,19449
+ISCX-URL-2016,unescaped,domain,Decision Tree,phishing,spam,717
+ISCX-URL-2016,unescaped,domain,Decision Tree,spam,benign,1688
+ISCX-URL-2016,unescaped,domain,Decision Tree,spam,phishing,7723
+ISCX-URL-2016,unescaped,domain,Decision Tree,spam,spam,9522
+ISCX-URL-2016,unescaped,domain,Random Forest,benign,benign,53969
+ISCX-URL-2016,unescaped,domain,Random Forest,benign,phishing,5321
+ISCX-URL-2016,unescaped,domain,Random Forest,benign,spam,514
+ISCX-URL-2016,unescaped,domain,Random Forest,phishing,benign,372
+ISCX-URL-2016,unescaped,domain,Random Forest,phishing,phishing,19750
+ISCX-URL-2016,unescaped,domain,Random Forest,phishing,spam,477
+ISCX-URL-2016,unescaped,domain,Random Forest,spam,benign,614
+ISCX-URL-2016,unescaped,domain,Random Forest,spam,phishing,7399
+ISCX-URL-2016,unescaped,domain,Random Forest,spam,spam,10920
+ISCX-URL-2016,unescaped,domain,CatBoost,benign,benign,53765
+ISCX-URL-2016,unescaped,domain,CatBoost,benign,phishing,5370
+ISCX-URL-2016,unescaped,domain,CatBoost,benign,spam,669
+ISCX-URL-2016,unescaped,domain,CatBoost,phishing,benign,470
+ISCX-URL-2016,unescaped,domain,CatBoost,phishing,phishing,19532
+ISCX-URL-2016,unescaped,domain,CatBoost,phishing,spam,597
+ISCX-URL-2016,unescaped,domain,CatBoost,spam,benign,1185
+ISCX-URL-2016,unescaped,domain,CatBoost,spam,phishing,6771
+ISCX-URL-2016,unescaped,domain,CatBoost,spam,spam,10977
+ISCX-URL-2016,unescaped,domain,Soft-voting ensemble,benign,benign,54248
+ISCX-URL-2016,unescaped,domain,Soft-voting ensemble,benign,phishing,4649
+ISCX-URL-2016,unescaped,domain,Soft-voting ensemble,benign,spam,907
+ISCX-URL-2016,unescaped,domain,Soft-voting ensemble,phishing,benign,449
+ISCX-URL-2016,unescaped,domain,Soft-voting ensemble,phishing,phishing,19598
+ISCX-URL-2016,unescaped,domain,Soft-voting ensemble,phishing,spam,552
+ISCX-URL-2016,unescaped,domain,Soft-voting ensemble,spam,benign,768
+ISCX-URL-2016,unescaped,domain,Soft-voting ensemble,spam,phishing,7557
+ISCX-URL-2016,unescaped,domain,Soft-voting ensemble,spam,spam,10608
+ISCX-URL-2016,tuned,random,Logistic Regression (tuned),benign,benign,69396
+ISCX-URL-2016,tuned,random,Logistic Regression (tuned),benign,phishing,436
+ISCX-URL-2016,tuned,random,Logistic Regression (tuned),benign,spam,928
+ISCX-URL-2016,tuned,random,Logistic Regression (tuned),phishing,benign,2174
+ISCX-URL-2016,tuned,random,Logistic Regression (tuned),phishing,phishing,14282
+ISCX-URL-2016,tuned,random,Logistic Regression (tuned),phishing,spam,3474
+ISCX-URL-2016,tuned,random,Logistic Regression (tuned),spam,benign,532
+ISCX-URL-2016,tuned,random,Logistic Regression (tuned),spam,phishing,3133
+ISCX-URL-2016,tuned,random,Logistic Regression (tuned),spam,spam,20335
+ISCX-URL-2016,tuned,random,Decision Tree (tuned),benign,benign,70463
+ISCX-URL-2016,tuned,random,Decision Tree (tuned),benign,phishing,203
+ISCX-URL-2016,tuned,random,Decision Tree (tuned),benign,spam,94
+ISCX-URL-2016,tuned,random,Decision Tree (tuned),phishing,benign,563
+ISCX-URL-2016,tuned,random,Decision Tree (tuned),phishing,phishing,17875
+ISCX-URL-2016,tuned,random,Decision Tree (tuned),phishing,spam,1492
+ISCX-URL-2016,tuned,random,Decision Tree (tuned),spam,benign,61
+ISCX-URL-2016,tuned,random,Decision Tree (tuned),spam,phishing,873
+ISCX-URL-2016,tuned,random,Decision Tree (tuned),spam,spam,23066
+ISCX-URL-2016,tuned,random,Random Forest (tuned),benign,benign,70648
+ISCX-URL-2016,tuned,random,Random Forest (tuned),benign,phishing,61
+ISCX-URL-2016,tuned,random,Random Forest (tuned),benign,spam,51
+ISCX-URL-2016,tuned,random,Random Forest (tuned),phishing,benign,350
+ISCX-URL-2016,tuned,random,Random Forest (tuned),phishing,phishing,19080
+ISCX-URL-2016,tuned,random,Random Forest (tuned),phishing,spam,500
+ISCX-URL-2016,tuned,random,Random Forest (tuned),spam,benign,25
+ISCX-URL-2016,tuned,random,Random Forest (tuned),spam,phishing,551
+ISCX-URL-2016,tuned,random,Random Forest (tuned),spam,spam,23424
+ISCX-URL-2016,tuned,random,CatBoost (tuned),benign,benign,70601
+ISCX-URL-2016,tuned,random,CatBoost (tuned),benign,phishing,42
+ISCX-URL-2016,tuned,random,CatBoost (tuned),benign,spam,117
+ISCX-URL-2016,tuned,random,CatBoost (tuned),phishing,benign,687
+ISCX-URL-2016,tuned,random,CatBoost (tuned),phishing,phishing,18030
+ISCX-URL-2016,tuned,random,CatBoost (tuned),phishing,spam,1213
+ISCX-URL-2016,tuned,random,CatBoost (tuned),spam,benign,31
+ISCX-URL-2016,tuned,random,CatBoost (tuned),spam,phishing,570
+ISCX-URL-2016,tuned,random,CatBoost (tuned),spam,spam,23399
+ISCX-URL-2016,tuned,random,Soft-voting ensemble (tuned),benign,benign,70586
+ISCX-URL-2016,tuned,random,Soft-voting ensemble (tuned),benign,phishing,73
+ISCX-URL-2016,tuned,random,Soft-voting ensemble (tuned),benign,spam,101
+ISCX-URL-2016,tuned,random,Soft-voting ensemble (tuned),phishing,benign,565
+ISCX-URL-2016,tuned,random,Soft-voting ensemble (tuned),phishing,phishing,18063
+ISCX-URL-2016,tuned,random,Soft-voting ensemble (tuned),phishing,spam,1302
+ISCX-URL-2016,tuned,random,Soft-voting ensemble (tuned),spam,benign,23
+ISCX-URL-2016,tuned,random,Soft-voting ensemble (tuned),spam,phishing,524
+ISCX-URL-2016,tuned,random,Soft-voting ensemble (tuned),spam,spam,23453
+ISCX-URL-2016,tuned,domain,Logistic Regression (tuned),benign,benign,54300
+ISCX-URL-2016,tuned,domain,Logistic Regression (tuned),benign,phishing,4460
+ISCX-URL-2016,tuned,domain,Logistic Regression (tuned),benign,spam,1044
+ISCX-URL-2016,tuned,domain,Logistic Regression (tuned),phishing,benign,3936
+ISCX-URL-2016,tuned,domain,Logistic Regression (tuned),phishing,phishing,12906
+ISCX-URL-2016,tuned,domain,Logistic Regression (tuned),phishing,spam,3757
+ISCX-URL-2016,tuned,domain,Logistic Regression (tuned),spam,benign,1209
+ISCX-URL-2016,tuned,domain,Logistic Regression (tuned),spam,phishing,6340
+ISCX-URL-2016,tuned,domain,Logistic Regression (tuned),spam,spam,11384
+ISCX-URL-2016,tuned,domain,Decision Tree (tuned),benign,benign,54943
+ISCX-URL-2016,tuned,domain,Decision Tree (tuned),benign,phishing,3720
+ISCX-URL-2016,tuned,domain,Decision Tree (tuned),benign,spam,1141
+ISCX-URL-2016,tuned,domain,Decision Tree (tuned),phishing,benign,732
+ISCX-URL-2016,tuned,domain,Decision Tree (tuned),phishing,phishing,18394
+ISCX-URL-2016,tuned,domain,Decision Tree (tuned),phishing,spam,1473
+ISCX-URL-2016,tuned,domain,Decision Tree (tuned),spam,benign,1283
+ISCX-URL-2016,tuned,domain,Decision Tree (tuned),spam,phishing,4619
+ISCX-URL-2016,tuned,domain,Decision Tree (tuned),spam,spam,13031
+ISCX-URL-2016,tuned,domain,Random Forest (tuned),benign,benign,55992
+ISCX-URL-2016,tuned,domain,Random Forest (tuned),benign,phishing,2940
+ISCX-URL-2016,tuned,domain,Random Forest (tuned),benign,spam,872
+ISCX-URL-2016,tuned,domain,Random Forest (tuned),phishing,benign,493
+ISCX-URL-2016,tuned,domain,Random Forest (tuned),phishing,phishing,19505
+ISCX-URL-2016,tuned,domain,Random Forest (tuned),phishing,spam,601
+ISCX-URL-2016,tuned,domain,Random Forest (tuned),spam,benign,590
+ISCX-URL-2016,tuned,domain,Random Forest (tuned),spam,phishing,6735
+ISCX-URL-2016,tuned,domain,Random Forest (tuned),spam,spam,11608
+ISCX-URL-2016,tuned,domain,CatBoost (tuned),benign,benign,58052
+ISCX-URL-2016,tuned,domain,CatBoost (tuned),benign,phishing,589
+ISCX-URL-2016,tuned,domain,CatBoost (tuned),benign,spam,1163
+ISCX-URL-2016,tuned,domain,CatBoost (tuned),phishing,benign,865
+ISCX-URL-2016,tuned,domain,CatBoost (tuned),phishing,phishing,18526
+ISCX-URL-2016,tuned,domain,CatBoost (tuned),phishing,spam,1208
+ISCX-URL-2016,tuned,domain,CatBoost (tuned),spam,benign,947
+ISCX-URL-2016,tuned,domain,CatBoost (tuned),spam,phishing,5973
+ISCX-URL-2016,tuned,domain,CatBoost (tuned),spam,spam,12013
+ISCX-URL-2016,tuned,domain,Soft-voting ensemble (tuned),benign,benign,55072
+ISCX-URL-2016,tuned,domain,Soft-voting ensemble (tuned),benign,phishing,3641
+ISCX-URL-2016,tuned,domain,Soft-voting ensemble (tuned),benign,spam,1091
+ISCX-URL-2016,tuned,domain,Soft-voting ensemble (tuned),phishing,benign,772
+ISCX-URL-2016,tuned,domain,Soft-voting ensemble (tuned),phishing,phishing,18613
+ISCX-URL-2016,tuned,domain,Soft-voting ensemble (tuned),phishing,spam,1214
+ISCX-URL-2016,tuned,domain,Soft-voting ensemble (tuned),spam,benign,615
+ISCX-URL-2016,tuned,domain,Soft-voting ensemble (tuned),spam,phishing,4990
+ISCX-URL-2016,tuned,domain,Soft-voting ensemble (tuned),spam,spam,13328
+PhiUSIIL,tuned,random,Logistic Regression (tuned),benign,benign,134772
+PhiUSIIL,tuned,random,Logistic Regression (tuned),benign,phishing,78
+PhiUSIIL,tuned,random,Logistic Regression (tuned),phishing,benign,1685
+PhiUSIIL,tuned,random,Logistic Regression (tuned),phishing,phishing,99260
+PhiUSIIL,tuned,random,Decision Tree (tuned),benign,benign,134738
+PhiUSIIL,tuned,random,Decision Tree (tuned),benign,phishing,112
+PhiUSIIL,tuned,random,Decision Tree (tuned),phishing,benign,1616
+PhiUSIIL,tuned,random,Decision Tree (tuned),phishing,phishing,99329
+PhiUSIIL,tuned,random,Random Forest (tuned),benign,benign,134735
+PhiUSIIL,tuned,random,Random Forest (tuned),benign,phishing,115
+PhiUSIIL,tuned,random,Random Forest (tuned),phishing,benign,1616
+PhiUSIIL,tuned,random,Random Forest (tuned),phishing,phishing,99329
+PhiUSIIL,tuned,random,CatBoost (tuned),benign,benign,134730
+PhiUSIIL,tuned,random,CatBoost (tuned),benign,phishing,120
+PhiUSIIL,tuned,random,CatBoost (tuned),phishing,benign,1601
+PhiUSIIL,tuned,random,CatBoost (tuned),phishing,phishing,99344
+PhiUSIIL,tuned,random,Soft-voting ensemble (tuned),benign,benign,134772
+PhiUSIIL,tuned,random,Soft-voting ensemble (tuned),benign,phishing,78
+PhiUSIIL,tuned,random,Soft-voting ensemble (tuned),phishing,benign,1633
+PhiUSIIL,tuned,random,Soft-voting ensemble (tuned),phishing,phishing,99312
+PhiUSIIL,tuned,domain,Logistic Regression (tuned),benign,benign,135021
+PhiUSIIL,tuned,domain,Logistic Regression (tuned),benign,phishing,63
+PhiUSIIL,tuned,domain,Logistic Regression (tuned),phishing,benign,1750
+PhiUSIIL,tuned,domain,Logistic Regression (tuned),phishing,phishing,104786
+PhiUSIIL,tuned,domain,Decision Tree (tuned),benign,benign,135006
+PhiUSIIL,tuned,domain,Decision Tree (tuned),benign,phishing,78
+PhiUSIIL,tuned,domain,Decision Tree (tuned),phishing,benign,1686
+PhiUSIIL,tuned,domain,Decision Tree (tuned),phishing,phishing,104850
+PhiUSIIL,tuned,domain,Random Forest (tuned),benign,benign,135000
+PhiUSIIL,tuned,domain,Random Forest (tuned),benign,phishing,84
+PhiUSIIL,tuned,domain,Random Forest (tuned),phishing,benign,1683
+PhiUSIIL,tuned,domain,Random Forest (tuned),phishing,phishing,104853
+PhiUSIIL,tuned,domain,CatBoost (tuned),benign,benign,134991
+PhiUSIIL,tuned,domain,CatBoost (tuned),benign,phishing,93
+PhiUSIIL,tuned,domain,CatBoost (tuned),phishing,benign,1691
+PhiUSIIL,tuned,domain,CatBoost (tuned),phishing,phishing,104845
+PhiUSIIL,tuned,domain,Soft-voting ensemble (tuned),benign,benign,135018
+PhiUSIIL,tuned,domain,Soft-voting ensemble (tuned),benign,phishing,66
+PhiUSIIL,tuned,domain,Soft-voting ensemble (tuned),phishing,benign,1697
+PhiUSIIL,tuned,domain,Soft-voting ensemble (tuned),phishing,phishing,104839
+PhiUSIIL,headline,random,Logistic Regression,benign,benign,538822
+PhiUSIIL,headline,random,Logistic Regression,benign,phishing,578
+PhiUSIIL,headline,random,Logistic Regression,phishing,benign,7124
+PhiUSIIL,headline,random,Logistic Regression,phishing,phishing,396656
+PhiUSIIL,headline,random,Decision Tree,benign,benign,539018
+PhiUSIIL,headline,random,Decision Tree,benign,phishing,382
+PhiUSIIL,headline,random,Decision Tree,phishing,benign,6510
+PhiUSIIL,headline,random,Decision Tree,phishing,phishing,397270
+PhiUSIIL,headline,random,Random Forest,benign,benign,538940
+PhiUSIIL,headline,random,Random Forest,benign,phishing,460
+PhiUSIIL,headline,random,Random Forest,phishing,benign,6429
+PhiUSIIL,headline,random,Random Forest,phishing,phishing,397351
+PhiUSIIL,headline,random,CatBoost,benign,benign,539015
+PhiUSIIL,headline,random,CatBoost,benign,phishing,385
+PhiUSIIL,headline,random,CatBoost,phishing,benign,6429
+PhiUSIIL,headline,random,CatBoost,phishing,phishing,397351
+PhiUSIIL,headline,random,Soft-voting ensemble,benign,benign,539068
+PhiUSIIL,headline,random,Soft-voting ensemble,benign,phishing,332
+PhiUSIIL,headline,random,Soft-voting ensemble,phishing,benign,6540
+PhiUSIIL,headline,random,Soft-voting ensemble,phishing,phishing,397240
+PhiUSIIL,headline,random,Char n-gram LR,benign,benign,539385
+PhiUSIIL,headline,random,Char n-gram LR,benign,phishing,15
+PhiUSIIL,headline,random,Char n-gram LR,phishing,benign,2365
+PhiUSIIL,headline,random,Char n-gram LR,phishing,phishing,401415
+PhiUSIIL,headline,random,Artefact-only RF,benign,benign,539097
+PhiUSIIL,headline,random,Artefact-only RF,benign,phishing,303
+PhiUSIIL,headline,random,Artefact-only RF,phishing,benign,7860
+PhiUSIIL,headline,random,Artefact-only RF,phishing,phishing,395920
+PhiUSIIL,headline,domain,Logistic Regression,benign,benign,538347
+PhiUSIIL,headline,domain,Logistic Regression,benign,phishing,529
+PhiUSIIL,headline,domain,Logistic Regression,phishing,benign,7497
+PhiUSIIL,headline,domain,Logistic Regression,phishing,phishing,414276
+PhiUSIIL,headline,domain,Decision Tree,benign,benign,538524
+PhiUSIIL,headline,domain,Decision Tree,benign,phishing,352
+PhiUSIIL,headline,domain,Decision Tree,phishing,benign,6429
+PhiUSIIL,headline,domain,Decision Tree,phishing,phishing,415344
+PhiUSIIL,headline,domain,Random Forest,benign,benign,538465
+PhiUSIIL,headline,domain,Random Forest,benign,phishing,411
+PhiUSIIL,headline,domain,Random Forest,phishing,benign,6380
+PhiUSIIL,headline,domain,Random Forest,phishing,phishing,415393
+PhiUSIIL,headline,domain,CatBoost,benign,benign,538552
+PhiUSIIL,headline,domain,CatBoost,benign,phishing,324
+PhiUSIIL,headline,domain,CatBoost,phishing,benign,6390
+PhiUSIIL,headline,domain,CatBoost,phishing,phishing,415383
+PhiUSIIL,headline,domain,Soft-voting ensemble,benign,benign,538581
+PhiUSIIL,headline,domain,Soft-voting ensemble,benign,phishing,295
+PhiUSIIL,headline,domain,Soft-voting ensemble,phishing,benign,6445
+PhiUSIIL,headline,domain,Soft-voting ensemble,phishing,phishing,415328
+PhiUSIIL,headline,domain,Char n-gram LR,benign,benign,538860
+PhiUSIIL,headline,domain,Char n-gram LR,benign,phishing,16
+PhiUSIIL,headline,domain,Char n-gram LR,phishing,benign,2326
+PhiUSIIL,headline,domain,Char n-gram LR,phishing,phishing,419447
+PhiUSIIL,headline,domain,Artefact-only RF,benign,benign,538545
+PhiUSIIL,headline,domain,Artefact-only RF,benign,phishing,331
+PhiUSIIL,headline,domain,Artefact-only RF,phishing,benign,7644
+PhiUSIIL,headline,domain,Artefact-only RF,phishing,phishing,414129
+ISCX-URL-2016,headline,random,Char-CNN,benign,benign,35294
+ISCX-URL-2016,headline,random,Char-CNN,benign,phishing,86
+ISCX-URL-2016,headline,random,Char-CNN,benign,spam,0
+ISCX-URL-2016,headline,random,Char-CNN,phishing,benign,411
+ISCX-URL-2016,headline,random,Char-CNN,phishing,phishing,9511
+ISCX-URL-2016,headline,random,Char-CNN,phishing,spam,43
+ISCX-URL-2016,headline,random,Char-CNN,spam,benign,1
+ISCX-URL-2016,headline,random,Char-CNN,spam,phishing,2
+ISCX-URL-2016,headline,random,Char-CNN,spam,spam,11997
+ISCX-URL-2016,headline,domain,Char-CNN,benign,benign,28924
+ISCX-URL-2016,headline,domain,Char-CNN,benign,phishing,302
+ISCX-URL-2016,headline,domain,Char-CNN,benign,spam,13
+ISCX-URL-2016,headline,domain,Char-CNN,phishing,benign,591
+ISCX-URL-2016,headline,domain,Char-CNN,phishing,phishing,9808
+ISCX-URL-2016,headline,domain,Char-CNN,phishing,spam,34
+ISCX-URL-2016,headline,domain,Char-CNN,spam,benign,9
+ISCX-URL-2016,headline,domain,Char-CNN,spam,phishing,9
+ISCX-URL-2016,headline,domain,Char-CNN,spam,spam,10163
+PhiUSIIL,headline,random,Char-CNN,benign,benign,80905
+PhiUSIIL,headline,random,Char-CNN,benign,phishing,5
+PhiUSIIL,headline,random,Char-CNN,phishing,benign,298
+PhiUSIIL,headline,random,Char-CNN,phishing,phishing,60269
+PhiUSIIL,headline,domain,Char-CNN,benign,benign,81078
+PhiUSIIL,headline,domain,Char-CNN,benign,phishing,5
+PhiUSIIL,headline,domain,Char-CNN,phishing,benign,293
+PhiUSIIL,headline,domain,Char-CNN,phishing,phishing,52497
+ISCX-URL-2016 -> PhiUSIIL,headline,cross-corpus,Logistic Regression,benign,benign,0
+ISCX-URL-2016 -> PhiUSIIL,headline,cross-corpus,Logistic Regression,benign,phishing,134850
+ISCX-URL-2016 -> PhiUSIIL,headline,cross-corpus,Logistic Regression,phishing,benign,4405
+ISCX-URL-2016 -> PhiUSIIL,headline,cross-corpus,Logistic Regression,phishing,phishing,96540
+ISCX-URL-2016 -> PhiUSIIL,headline,cross-corpus,Decision Tree,benign,benign,0
+ISCX-URL-2016 -> PhiUSIIL,headline,cross-corpus,Decision Tree,benign,phishing,134850
+ISCX-URL-2016 -> PhiUSIIL,headline,cross-corpus,Decision Tree,phishing,benign,1816
+ISCX-URL-2016 -> PhiUSIIL,headline,cross-corpus,Decision Tree,phishing,phishing,99129
+ISCX-URL-2016 -> PhiUSIIL,headline,cross-corpus,Random Forest,benign,benign,0
+ISCX-URL-2016 -> PhiUSIIL,headline,cross-corpus,Random Forest,benign,phishing,134850
+ISCX-URL-2016 -> PhiUSIIL,headline,cross-corpus,Random Forest,phishing,benign,1751
+ISCX-URL-2016 -> PhiUSIIL,headline,cross-corpus,Random Forest,phishing,phishing,99194
+ISCX-URL-2016 -> PhiUSIIL,headline,cross-corpus,CatBoost,benign,benign,0
+ISCX-URL-2016 -> PhiUSIIL,headline,cross-corpus,CatBoost,benign,phishing,134850
+ISCX-URL-2016 -> PhiUSIIL,headline,cross-corpus,CatBoost,phishing,benign,1959
+ISCX-URL-2016 -> PhiUSIIL,headline,cross-corpus,CatBoost,phishing,phishing,98986
+ISCX-URL-2016 -> PhiUSIIL,headline,cross-corpus,Soft-voting ensemble,benign,benign,0
+ISCX-URL-2016 -> PhiUSIIL,headline,cross-corpus,Soft-voting ensemble,benign,phishing,134850
+ISCX-URL-2016 -> PhiUSIIL,headline,cross-corpus,Soft-voting ensemble,phishing,benign,1741
+ISCX-URL-2016 -> PhiUSIIL,headline,cross-corpus,Soft-voting ensemble,phishing,phishing,99204
+ISCX-URL-2016 -> PhiUSIIL,headline,cross-corpus,Char n-gram LR,benign,benign,4
+ISCX-URL-2016 -> PhiUSIIL,headline,cross-corpus,Char n-gram LR,benign,phishing,134846
+ISCX-URL-2016 -> PhiUSIIL,headline,cross-corpus,Char n-gram LR,phishing,benign,12396
+ISCX-URL-2016 -> PhiUSIIL,headline,cross-corpus,Char n-gram LR,phishing,phishing,88549
+ISCX-URL-2016 -> PhiUSIIL,headline,cross-corpus,Artefact-only RF,benign,benign,360
+ISCX-URL-2016 -> PhiUSIIL,headline,cross-corpus,Artefact-only RF,benign,phishing,134490
+ISCX-URL-2016 -> PhiUSIIL,headline,cross-corpus,Artefact-only RF,phishing,benign,33483
+ISCX-URL-2016 -> PhiUSIIL,headline,cross-corpus,Artefact-only RF,phishing,phishing,67462
+ISCX-URL-2016 -> PhiUSIIL,headline,cross-corpus,Char-CNN,benign,benign,26
+ISCX-URL-2016 -> PhiUSIIL,headline,cross-corpus,Char-CNN,benign,phishing,134824
+ISCX-URL-2016 -> PhiUSIIL,headline,cross-corpus,Char-CNN,phishing,benign,17771
+ISCX-URL-2016 -> PhiUSIIL,headline,cross-corpus,Char-CNN,phishing,phishing,83174
+PhiUSIIL -> ISCX-URL-2016,headline,cross-corpus,Logistic Regression,benign,benign,0
+PhiUSIIL -> ISCX-URL-2016,headline,cross-corpus,Logistic Regression,benign,phishing,35378
+PhiUSIIL -> ISCX-URL-2016,headline,cross-corpus,Logistic Regression,phishing,benign,0
+PhiUSIIL -> ISCX-URL-2016,headline,cross-corpus,Logistic Regression,phishing,phishing,9965
+PhiUSIIL -> ISCX-URL-2016,headline,cross-corpus,Decision Tree,benign,benign,0
+PhiUSIIL -> ISCX-URL-2016,headline,cross-corpus,Decision Tree,benign,phishing,35378
+PhiUSIIL -> ISCX-URL-2016,headline,cross-corpus,Decision Tree,phishing,benign,0
+PhiUSIIL -> ISCX-URL-2016,headline,cross-corpus,Decision Tree,phishing,phishing,9965
+PhiUSIIL -> ISCX-URL-2016,headline,cross-corpus,Random Forest,benign,benign,0
+PhiUSIIL -> ISCX-URL-2016,headline,cross-corpus,Random Forest,benign,phishing,35378
+PhiUSIIL -> ISCX-URL-2016,headline,cross-corpus,Random Forest,phishing,benign,0
+PhiUSIIL -> ISCX-URL-2016,headline,cross-corpus,Random Forest,phishing,phishing,9965
+PhiUSIIL -> ISCX-URL-2016,headline,cross-corpus,CatBoost,benign,benign,0
+PhiUSIIL -> ISCX-URL-2016,headline,cross-corpus,CatBoost,benign,phishing,35378
+PhiUSIIL -> ISCX-URL-2016,headline,cross-corpus,CatBoost,phishing,benign,0
+PhiUSIIL -> ISCX-URL-2016,headline,cross-corpus,CatBoost,phishing,phishing,9965
+PhiUSIIL -> ISCX-URL-2016,headline,cross-corpus,Soft-voting ensemble,benign,benign,0
+PhiUSIIL -> ISCX-URL-2016,headline,cross-corpus,Soft-voting ensemble,benign,phishing,35378
+PhiUSIIL -> ISCX-URL-2016,headline,cross-corpus,Soft-voting ensemble,phishing,benign,0
+PhiUSIIL -> ISCX-URL-2016,headline,cross-corpus,Soft-voting ensemble,phishing,phishing,9965
+PhiUSIIL -> ISCX-URL-2016,headline,cross-corpus,Char n-gram LR,benign,benign,47
+PhiUSIIL -> ISCX-URL-2016,headline,cross-corpus,Char n-gram LR,benign,phishing,35331
+PhiUSIIL -> ISCX-URL-2016,headline,cross-corpus,Char n-gram LR,phishing,benign,0
+PhiUSIIL -> ISCX-URL-2016,headline,cross-corpus,Char n-gram LR,phishing,phishing,9965
+PhiUSIIL -> ISCX-URL-2016,headline,cross-corpus,Artefact-only RF,benign,benign,94
+PhiUSIIL -> ISCX-URL-2016,headline,cross-corpus,Artefact-only RF,benign,phishing,35284
+PhiUSIIL -> ISCX-URL-2016,headline,cross-corpus,Artefact-only RF,phishing,benign,16
+PhiUSIIL -> ISCX-URL-2016,headline,cross-corpus,Artefact-only RF,phishing,phishing,9949
+PhiUSIIL -> ISCX-URL-2016,headline,cross-corpus,Char-CNN,benign,benign,0
+PhiUSIIL -> ISCX-URL-2016,headline,cross-corpus,Char-CNN,benign,phishing,35378
+PhiUSIIL -> ISCX-URL-2016,headline,cross-corpus,Char-CNN,phishing,benign,0
+PhiUSIIL -> ISCX-URL-2016,headline,cross-corpus,Char-CNN,phishing,phishing,9965
