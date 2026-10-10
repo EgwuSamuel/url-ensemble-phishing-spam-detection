@@ -1,0 +1,16 @@
+# manuscript drafts and the superseded notebook/script stay local
+*.docx
+AAE_MODEL_TRAINING.ipynb
+aae_pipeline.py
+results/*aae*
+
+# secrets and local environment
+.env
+.env.*
+__pycache__/
+catboost_info/
+*.pyc
+
+# third-party data is downloaded separately (see README.md)
+data/*.csv
+resources/

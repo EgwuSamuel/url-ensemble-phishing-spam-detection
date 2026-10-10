@@ -1,0 +1,6 @@
+# versions the reported results were produced with (Python 3.14)
+numpy==2.4.2
+pandas==3.0.1
+scikit-learn==1.9.0
+catboost==1.2.10
+matplotlib==3.11.0

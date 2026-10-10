@@ -1,0 +1,51 @@
+{
+  "rows_total": 57343,
+  "class_counts": {
+    "benign": 35378,
+    "spam": 12000,
+    "phishing": 9965
+  },
+  "duplicate_urls": 88,
+  "train_rows": 45874,
+  "test_rows": 11469,
+  "test_urls_also_in_train": 21,
+  "selected_features": [
+    "url_length",
+    "url_count_percent",
+    "url_count_dot",
+    "url_count_hyphen",
+    "url_count_plus",
+    "url_count_underscore",
+    "url_count_equals",
+    "domain_count_dot",
+    "domain_count_hyphen",
+    "domain_length",
+    "web_traffic_rank",
+    "dir_count_percent",
+    "dir_count_dot",
+    "dir_count_hyphen",
+    "dir_count_equals",
+    "dir_length",
+    "param_count_percent",
+    "param_count_underscore",
+    "param_count_equals",
+    "param_length"
+  ],
+  "seed": 42,
+  "rank_list": "tranco_top-1m_8PX5V.csv.zip",
+  "host_overlap": {
+    "unique_hosts": 5390,
+    "hosts_per_class": {
+      "benign": 310,
+      "phishing": 4882,
+      "spam": 198
+    },
+    "random_split_test_urls_sharing_host_with_train": 0.9308
+  },
+  "versions": {
+    "python": "3.14.2",
+    "scikit-learn": "1.9.0",
+    "catboost": "1.2.10",
+    "pandas": "3.0.1"
+  }
+}

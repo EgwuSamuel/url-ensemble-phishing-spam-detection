@@ -1,0 +1,11 @@
+Experiment,Model,Fit Time (s),Predict Time (s),Accuracy,F1 Score,ROC-AUC
+Random split,Logistic Regression,0.79,0.005,0.935,0.9352,0.9828
+Random split,Decision Tree,0.22,0.002,0.9932,0.9932,0.9928
+Random split,Random Forest,1.93,0.087,0.9946,0.9946,0.9997
+Random split,CatBoost,31.17,0.042,0.9936,0.9936,0.9997
+Random split,Soft-Voting Ensemble (Proposed),34.09,0.131,0.9944,0.9944,0.9996
+"Random split, without web_traffic_rank",Logistic Regression,1.27,0.004,0.9064,0.9055,0.9674
+"Random split, without web_traffic_rank",Decision Tree,0.22,0.002,0.9861,0.9861,0.9859
+"Random split, without web_traffic_rank",Random Forest,1.99,0.086,0.9902,0.9902,0.9994
+"Random split, without web_traffic_rank",CatBoost,27.81,0.04,0.988,0.9879,0.9993
+"Random split, without web_traffic_rank",Soft-Voting Ensemble (Proposed),34.41,0.132,0.989,0.989,0.999
