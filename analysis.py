@@ -24,6 +24,8 @@ ARTEFACT_NAME = 'Artefact-only RF'
 ENS = up.ENSEMBLE_NAME
 FEATURE_MODELS = up.BASE_MODELS + [ENS]
 METRICS = ['accuracy', 'f1_macro', 'roc_auc']
+FIGURE_NAMES = {ENS: 'Soft voting ensemble', NGRAM_NAME: 'Character n-gram LR', CNN_NAME: 'Character CNN',
+                ARTEFACT_NAME: 'Artefact baseline (RF)'}
 PROTOCOL_LABEL = {'random': 'Random split', 'host': 'Host-disjoint', 'domain': 'Domain-disjoint',
                   'cross-corpus': 'Cross-corpus'}
 # validated categorical palette (blue, orange, aqua); see README
@@ -327,7 +329,7 @@ def fig_ladder(summ, cross, out):
             c = c[c['model'].isin(present)]
             ax.scatter(c['accuracy'], [ypos[m] - 0.38 for m in c['model']], marker='D', s=26, color=INK2,
                        edgecolor='white', linewidth=0.8, label='Cross-corpus (trained on the other corpus)', zorder=3)
-        ax.set_yticks(list(ypos.values())); ax.set_yticklabels(list(ypos.keys()))
+        ax.set_yticks(list(ypos.values())); ax.set_yticklabels([FIGURE_NAMES.get(m, m) for m in ypos])
         ax.set_title(corpus); ax.set_xlabel('Accuracy (mean, 95% CI)')
         ax.xaxis.set_major_formatter(plt.FuncFormatter(lambda v, _: f'{v:.0%}'))
         ax.grid(axis='y', visible=False)
